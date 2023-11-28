@@ -1,0 +1,7 @@
+openai
+tiktoken
+rouge==1.16.0
+torch==1.13
+transformers==4.35.0
+accelerate==0.20.3
+evaluate==0.4.1
