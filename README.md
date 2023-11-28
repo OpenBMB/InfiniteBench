@@ -1,6 +1,6 @@
 <div align="center">
 
-# InfiniteBench: 128k-Long-Context Benchmark for Language Models
+# InfiniteBench: 100k+ Long-Context Benchmark for Large Language Models
 
 <p align="center">
   <a href="./README_ZH.md">中文</a> •
@@ -12,11 +12,11 @@
 
 ## Introduction
 
-Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the capabilities of language models to process, understand, and reason over very long contexts. Long contexts are crucial for enhancing applications with LLMs and achieving high-level interaction. InfiniteBench is designed to push the boundaries of language models by testing them against a context length of 128k, which is 10 times longer than traditional datasets.
+Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the capabilities of language models to process, understand, and reason over super long contexts (100k+ tokens). Long contexts are crucial for enhancing applications with LLMs and achieving high-level interaction. InfiniteBench is designed to push the boundaries of language models by testing them against a context length of 100k+, which is 10 times longer than traditional datasets.
 
 ## Features
 
-- **Loooong Context:** InfiniteBench is a pioneer in testing language models with a context length of 128k, offering an unparalleled challenge in the field.
+- **Loooong Context:** InfiniteBench is a pioneer in testing language models with a context length of 100k+, offering an unparalleled challenge in the field.
 - **Diverse Domain:** The benchmark comprises 12 unique tasks, each crafted to assess different aspects of language processing and comprehension in extended contexts.
 - **Specialized Test:** InfiniteBench consists of tasks that state-of-the-art LLMs are known to be capable of when using shorter context. This ensures that the performance degradation is only caused by the length of the contexts.
 - **Real-World and Synthetic Scenarios:** The tasks are a mix of real-world scenarios and synthetic constructs, ensuring a comprehensive evaluation of models. Real-world scenarios make the test pragmatic, and synthetic ones leave the space for extending the context length further with ease.
@@ -29,13 +29,13 @@ Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the c
 
 | Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                     |
 | -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------- |
-| En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with key entity substitution.              |
+| En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.              |
 | En.QA                | Fake Book     | 466        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                            |
 | En.MC                | Fake Book     | 322        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                           |
 | En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                      |
 | Zh.QA                | New Book      | 189        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                           |
-| Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Multiple choice, find which function in a code repo contains an crashing error. |
-| Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulate execution of multiple simple, synthetic functions.                     |
+| Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Finding which function in a code repo contains an crashing error (in multiple choice form). |
+| Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                     |
 | Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                         |
 | Math.Find            | Synthetic     | 350        | 87.9k            | 1.3               | Finding special integers in a lengthy list.                                     |
 | Retrieve.PassKey[^1] | Synthetic     | 590        | 122.4k           | 2.0               | Retrieving hidden keys in a noisy long context.                                 |
