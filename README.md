@@ -23,6 +23,10 @@ Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the c
 
 ## Task Composition
 
+<div align="center">
+  <img src="figs/data_pie.png" width="480px">
+</div>
+
 | Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                     |
 | -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------- |
 | En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with key entity substitution.              |
@@ -87,9 +91,11 @@ Note:
    The metric for En.Sum is the `rougeLsum` score from the 🤗 Evaluate library.
 
 > Since RWKV-World-4-7B got none of the examples in Retrieve.PassKey correct, we did not consider testing it on other tasks, which are more challenging for other models. We emphasize that RWKV-World-4-7b was apparently never trained on 128k, and was not advertised as being capable of contexts of such lengths, and this result is therefore not a sign that the RWKV architecture is incapable of extending to 128k context lengths. Moreover, there is a chance that our implementation is faulty, we greatly appreciate notifying us of any issues.
+
 <div align="center">
-<img src="figs/radar_res.png" width="480px">
+  <img src="figs/radar_res.png" width="480px">
 </div>
+
 ## Installation
 
 ```shell
