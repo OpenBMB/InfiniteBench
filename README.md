@@ -50,7 +50,12 @@ Alternatively, you can download using the 🤗 Datasets library as follows.
 from datasets import load_dataset
 dataset = load_dataset("xinrongzhang2022/InfiniteBench")
 ```
-
+### Using scripts
+```shell
+cd InfiniteBench
+bash scripts/download_dataset.sh
+```
+And the data can be found under data/InfiniteBench/
 ## Evaluation Result
 
 We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
@@ -93,24 +98,23 @@ pip install -r requirements.txt
 
 ## How to Run
 
-Download the dataset the `data` folder (or set the `--data_dir` argument to the location of the dataset). The folder structure should be:
+Download the dataset the `data` folder (or set the `--data_dir` argument to the location of the dataset). The data folder structure should be:
 
 ```
-InfiniteBench
-|-- data
-|   |-- code_debug.jsonl
-|   |-- code_run.jsonl
-|   |-- kv_retrieval.jsonl
-|   |-- longbook_choice_eng.jsonl
-|   |-- longbook_qa_chn.jsonl
-|   |-- longbook_qa_eng.jsonl
-|   |-- longbook_sum_eng.jsonl
-|   |-- longdialogue_qa_eng.jsonl
-|   |-- math_calc.jsonl
-|   |-- math_find.jsonl
-|   |-- number_string.jsonl
-|   `-- passkey.jsonl
-`-- construct_synthetic_dataset.py
+├── InfiniteBench
+│   ├── code_debug.jsonl
+│   ├── code_run.jsonl
+│   ├── kv_retrieval.jsonl
+│   ├── longbook_choice_eng.jsonl
+│   ├── longbook_qa_chn.jsonl
+│   ├── longbook_qa_eng.jsonl
+│   ├── longbook_sum_eng.jsonl
+│   ├── longdialogue_qa_eng.jsonl
+│   ├── math_calc.jsonl
+│   ├── math_find.jsonl
+│   ├── number_string.jsonl
+│   └── passkey.jsonl
+└── construct_synthetic_dataset.py
 ```
 
 Then, in the `src` folder, execute:
