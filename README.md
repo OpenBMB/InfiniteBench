@@ -72,7 +72,7 @@ We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 | En.Sum           | 8.76%       | < 5%            | 18.02%    | 15.13%     | -               |
 | En.QA            | 21.45%      | 10.22%          | 14.98%    | coming      | -               |
 | En.MC            | 69.88%      | 26.71%          | 71.74%    | coming      | -               |
-| En.Dia           | 8.50%       | 7.50%           | 11.50%    | coming      | -               |
+| En.Dia           | 8.50%       | 7.50%           | 11.50%    | 46.50%     | -               |
 | Zh.QA            | 24.80%      | 14.25%          | 17.63%    | coming      | -               |
 | Code.Debug       | 39.59%      | < 5%            | 18.02%    | < 5%        | -               |
 | Code.Run         | 23.25%      | < 5%            | < 5%      | < 5%        | -               |
@@ -147,7 +147,7 @@ python eval_rwkv.py --task passkey
 
 ## Acknowledgement
 
-Thanks to Zhongwu Zhai, Guoyang Zeng, Chenyang Song, Renjie Luo, Chaoqun He, Yuge Tu, Bowen Ping, Yujie Huang, Yudong Mei, Kaihuo Zhang, Weilin Zhao, Ao Sun, Yulin Chen, Ganqu Cui.
+Thanks to Cong Feng, Zhongwu Zhai, Guoyang Zeng, Chenyang Song, Renjie Luo, Chaoqun He, Yuge Tu, Bowen Ping, Yujie Huang, Yudong Mei, Kaihuo Zhang, Weilin Zhao, Ao Sun, Yulin Chen, Ganqu Cui.
 
 [^1]: Mohtashami, Amirkeivan and Martin Jaggi. "Landmark Attention: Random-Access Infinite Context Length for Transformers." ArXiv abs/2305.16300 (2023): n. pag.
 [^2]: Liu, Nelson F. et al. "Lost in the Middle: How Language Models Use Long Contexts." ArXiv abs/2307.03172 (2023): n. pag.
