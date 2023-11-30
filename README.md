@@ -61,7 +61,7 @@ cd InfiniteBench
 bash scripts/download_dataset.sh
 ```
 
-And the data can be found under data/InfiniteBench/
+This will directly dump the data to `data`.
 
 ## Evaluation Result
 
@@ -153,5 +153,7 @@ python eval_rwkv.py --task passkey
 Thanks to Cong Feng, Zhongwu Zhai, Guoyang Zeng, Chenyang Song, Renjie Luo, Chaoqun He, Yuge Tu, Bowen Ping, Yujie Huang, Yudong Mei, Kaihuo Zhang, Weilin Zhao, Ao Sun, Yulin Chen, Ganqu Cui.
 
 ## References
+
 [^1]: Mohtashami, Amirkeivan and Martin Jaggi. "Landmark Attention: Random-Access Infinite Context Length for Transformers." ArXiv abs/2305.16300 (2023): n. pag.
+
 [^2]: Liu, Nelson F. et al. "Lost in the Middle: How Language Models Use Long Contexts." ArXiv abs/2307.03172 (2023): n. pag.
