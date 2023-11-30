@@ -111,8 +111,7 @@ def build_kv_retrieval():
 
 
 if __name__ == "__main__":
-    # os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
-    # os.system("cd lost-in-the-middle")
+    os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
     os.system("python3 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 2500 --num-examples 500 --output-path kv-retrieval-2500_keys.jsonl.gz")
     os.system("gzip -d kv-retrieval-2500_keys.jsonl.gz")
     build_kv_retrieval()
