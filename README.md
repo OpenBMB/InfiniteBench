@@ -27,20 +27,20 @@ Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the c
   <img src="figs/data_pie.png" width="480px">
 </div>
 
-| Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                     |
-| -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------- |
-| En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.              |
-| En.QA                | Fake Book     | 466        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                            |
-| En.MC                | Fake Book     | 322        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                           |
-| En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                      |
-| Zh.QA                | New Book      | 189        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                           |
+| Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                                 |
+| -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------------------- |
+| En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
+| En.QA                | Fake Book     | 466        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                                        |
+| En.MC                | Fake Book     | 322        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
+| En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                                  |
+| Zh.QA                | New Book      | 189        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                                       |
 | Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Finding which function in a code repo contains an crashing error (in multiple choice form). |
-| Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                     |
-| Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                         |
-| Math.Find            | Synthetic     | 350        | 87.9k            | 1.3               | Finding special integers in a lengthy list.                                     |
-| Retrieve.PassKey[^1] | Synthetic     | 590        | 122.4k           | 2.0               | Retrieving hidden keys in a noisy long context.                                 |
-| Retrieve.Number      | Synthetic     | 590        | 122.4k           | 4.0               | Locating repeated hidden numbers in a noisy long context.                       |
-| Retrieve.KV[^2]      | Synthetic     | 500        | 89.9k            | 22.7              | Finding the corresponding value from a dictionary and a key.                    |
+| Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                               |
+| Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                                     |
+| Math.Find            | Synthetic     | 350        | 87.9k            | 1.3               | Finding special integers in a lengthy list.                                                 |
+| Retrieve.PassKey[^1] | Synthetic     | 590        | 122.4k           | 2.0               | Retrieving hidden keys in a noisy long context.                                             |
+| Retrieve.Number      | Synthetic     | 590        | 122.4k           | 4.0               | Locating repeated hidden numbers in a noisy long context.                                   |
+| Retrieve.KV[^2]      | Synthetic     | 500        | 89.9k            | 22.7              | Finding the corresponding value from a dictionary and a key.                                |
 
 ## How to Download Data
 
@@ -54,30 +54,33 @@ Alternatively, you can download using the 🤗 Datasets library as follows.
 from datasets import load_dataset
 dataset = load_dataset("xinrongzhang2022/InfiniteBench")
 ```
-### Using scripts
+### Using Scripts
+
 ```shell
 cd InfiniteBench
 bash scripts/download_dataset.sh
 ```
+
 And the data can be found under data/InfiniteBench/
+
 ## Evaluation Result
 
 We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 
-| Task Name        | GPT-4       | Yarn-Mistral-7B | Kimi-Chat | Claude 2    | RWKV-4-World-7B |
-| ---------------- | ----------- | --------------- | --------- | ----------- | --------------- |
-| Retrieve.PassKey | 100%        | 92.71%          | 98.14%    | coming      | < 5%            |
-| Retrieve.Number  | 100%        | 56.61%          | 95.42%    | 67.12%      | -               |
-| Retrieve.KV      | 89.00%      | < 5%            | 40.40%    | 67.00%      | -               |
-| En.Sum           | 8.76%       | < 5%            | 18.02%    | 15.13%     | -               |
-| En.QA            | 21.45%      | 10.22%          | 14.98%    | coming      | -               |
-| En.MC            | 69.88%      | 26.71%          | 71.74%    | coming      | -               |
-| En.Dia           | 8.50%       | 7.50%           | 11.50%    | 46.50%     | -               |
-| Zh.QA            | 24.80%      | 14.25%          | 17.63%    | coming      | -               |
-| Code.Debug       | 39.59%      | < 5%            | 18.02%    | < 5%        | -               |
-| Code.Run         | 23.25%      | < 5%            | < 5%      | < 5%        | -               |
-| Math.Calc        | < 5%        | < 5%            | < 5%      | < 5%        | -               |
-| Math.Find        | 60.00%      | 17.14%          | 12.57%    | 32.29%      | -               |
+| Task Name        | GPT-4  | Yarn-Mistral-7B | Kimi-Chat | Claude 2 | RWKV-4-World-7B |
+| ---------------- | ------ | --------------- | --------- | -------- | --------------- |
+| Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | coming   | < 5%            |
+| Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 67.12%   | -               |
+| Retrieve.KV      | 89.00% | < 5%            | 40.40%    | 67.00%   | -               |
+| En.Sum           | 8.76%  | < 5%            | 18.02%    | 15.13%   | -               |
+| En.QA            | 21.45% | 10.22%          | 14.98%    | coming   | -               |
+| En.MC            | 69.88% | 26.71%          | 71.74%    | coming   | -               |
+| En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | -               |
+| Zh.QA            | 24.80% | 14.25%          | 17.63%    | coming   | -               |
+| Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | -               |
+| Code.Run         | 23.25% | < 5%            | < 5%      | < 5%     | -               |
+| Math.Calc        | < 5%   | < 5%            | < 5%      | < 5%     | -               |
+| Math.Find        | 60.00% | 17.14%          | 12.57%    | 32.29%   | -               |
 
 Note:
 
@@ -132,8 +135,6 @@ python eval_yarn_mistral.py --task kv_retrieval
 python eval_gpt4.py --task longbook_sum_qa
 python eval_rwkv.py --task passkey
 ```
-
-## Contributions
 
 ## Citation
 
