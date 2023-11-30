@@ -19,7 +19,7 @@ def build_number_string():
     num_noise = [2610, 5220]
     step = [45, 90]
     repeat_time = 10
-    for i in range(len(target_length)):
+    for i in range(1, 2):
         target_length_i = target_length[i]
         step_i = step[i]
         num_noise_i = num_noise[i]
@@ -35,7 +35,7 @@ def build_number_string():
                     keys.insert(pos, keys[pos])
                 key_t = "".join(keys)
                 ret.append({"input": input_text.replace("{key}", key_t), "output": key_t, "len": 26 * (num_noise_i - j)})
-        fw = jsonlines.open("number_string-%d.jsonl"%target_length_i, 'w')
+        fw = jsonlines.open("number_string_%d.jsonl"%target_length_i, 'w')
         fw.write_all(ret)
         fw.close()
 
@@ -54,7 +54,7 @@ def build_passkey():
     num_noise = [1305, 2610, 5220, 10440]
     step = [15, 45, 90, 180]
     repeat_time = 5
-    for i in range(2, len(target_length)):
+    for i in range(2, 3):
         target_length_i = target_length[i]
         step_i = step[i]
         num_noise_i = num_noise[i]
@@ -68,7 +68,7 @@ def build_passkey():
                
                 key_t = "".join(keys)
                 ret.append({"prompt": prompt, "input": question, "context": input_text.replace("{key}", key_t), "answer": key_t, "len": 26 * (num_noise_i - j)})
-        fw = jsonlines.open("passkey-%d.jsonl"%target_length_i, 'w')
+        fw = jsonlines.open("passkey_%d.jsonl"%target_length_i, 'w')
         fw.write_all(ret)
         fw.close()
 
@@ -79,7 +79,7 @@ def build_kv_retrieval():
     interv = [16, 35]
     nsample = [500, 500]
     nnoise = [928, 1855]
-    for ii in range(len(target_length)):
+    for ii in range(1, 2):
         cnt = -1
         ret = []
 
@@ -105,12 +105,16 @@ def build_kv_retrieval():
                 ret.append({"input": text, "output": line["ordered_kv_records"][ans_id][1]})
             
         
-        fw = jsonlines.open("kv-retrieval-%d.jsonl"%(target_length[ii]), 'w')
+        fw = jsonlines.open("kv_retrieval_%d.jsonl"%(target_length[ii]), 'w')
         fw.write_all(ret)
         fw.close()
 
 
 if __name__ == "__main__":
+    # os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
+    # os.system("cd lost-in-the-middle")
+    os.system("python3 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 2500 --num-examples 500 --output-path kv-retrieval-2500_keys.jsonl.gz")
+    os.system("gzip -d kv-retrieval-2500_keys.jsonl.gz")
     build_kv_retrieval()
     build_passkey()
     build_number_string()

@@ -30,9 +30,9 @@ yarn_mistral_templates = {
 }
 
 claude2_templates = {
-    "passkey": "{prompt}\n\n{context}\n{input}\nThe pass key is",
-    "number_string": "{prompt}\n\n{context}\n{input}\nThe sequence of digits is",  # noqa
-    "kv_retrieval": "{prompt}\n\n{context}\n{input}",
+    "passkey": "There is an important info hidden inside a lot of irrelevant text. Find it and memorize them. I will quiz you about the important information there.\n\n{context}\n{input}\nThe pass key is",
+    "number_string": "There is an important info hidden inside a lot of irrelevant text. Find it. I will quiz you about the important information there.\n\n{context}\n{input}\nThe sequence of digits is",  # noqa
+    "kv_retrieval": "There is an important info hidden inside a lot of irrelevant text. Find it. I will quiz you about the important information there.\n\n{context}\n{input}",
     "longbook_sum_eng": "Summarize the following book.\n\n{context}",  # noqa
     "longbook_choice_eng": "Read the book and answer the question.\n\n{context}\n\nQuestion: {question}\n\nOnly one of the following options is correct, tell me the answer using one single letter (A, B, C, or D). Don't say anything else.\nA. {OPTION_A}\nB. {OPTION_B}\nC. {OPTION_C}\nD. {OPTION_D}",  # noqa
     "longbook_qa_eng": "Read the novel below and answer a question:\n\n{context}\n\n{input}\nPlease answer as short as possible. The answer is: ",  # noqa

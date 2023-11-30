@@ -71,21 +71,22 @@
 从 <https://huggingface.co/datasets/xinrongzhang2022/InfiniteBench> 下载数据集到 `infinitebench/data` 路径下（我们将评测数据集放在 InfiniteBench 目录下），得到文件如下：
 
 ```
-.
-|-- InfiniteBench
-|   |-- code_debug.jsonl
-|   |-- code_run.jsonl
-|   |-- kv_retrieval.jsonl
-|   |-- longbook_choice_eng.jsonl
-|   |-- longbook_qa_chn.jsonl
-|   |-- longbook_qa_eng.jsonl
-|   |-- longbook_sum_eng.jsonl
-|   |-- longdialogue_qa_eng.jsonl
-|   |-- math_calc.jsonl
-|   |-- math_find.jsonl
-|   |-- number_string.jsonl
-|   `-- passkey.jsonl
-`-- construct_synthetic_dataset.py
+InfiniteBench
+├── data
+│   ├── code_debug.jsonl
+│   ├── code_run.jsonl
+│   ├── kv_retrieval.jsonl
+│   ├── longbook_choice_eng.jsonl
+│   ├── longbook_qa_chn.jsonl
+│   ├── longbook_qa_eng.jsonl
+│   ├── longbook_sum_eng.jsonl
+│   ├── longdialogue_qa_eng.jsonl
+│   ├── math_calc.jsonl
+│   ├── math_find.jsonl
+│   ├── number_string.jsonl
+│   ├── passkey.jsonl
+│   └── construct_synthetic_dataset.py
+...
 ```
 
 或者使用 Datasets 下载：
