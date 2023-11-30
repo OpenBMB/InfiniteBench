@@ -104,23 +104,25 @@ pip install -r requirements.txt
 
 ## How to Run
 
-Download the dataset the `data` folder (or set the `--data_dir` argument to the location of the dataset). The data folder structure should be:
+Download the dataset the `data` folder (or set the `--data_dir` argument to the location of the dataset). The data folder structure should be as follows.
 
 ```
-├── InfiniteBench
-│   ├── code_debug.jsonl
-│   ├── code_run.jsonl
-│   ├── kv_retrieval.jsonl
-│   ├── longbook_choice_eng.jsonl
-│   ├── longbook_qa_chn.jsonl
-│   ├── longbook_qa_eng.jsonl
-│   ├── longbook_sum_eng.jsonl
-│   ├── longdialogue_qa_eng.jsonl
-│   ├── math_calc.jsonl
-│   ├── math_find.jsonl
-│   ├── number_string.jsonl
-│   └── passkey.jsonl
-└── construct_synthetic_dataset.py
+InfiniteBench
+├── data
+│   ├── code_debug.jsonl
+│   ├── code_run.jsonl
+│   ├── kv_retrieval.jsonl
+│   ├── longbook_choice_eng.jsonl
+│   ├── longbook_qa_chn.jsonl
+│   ├── longbook_qa_eng.jsonl
+│   ├── longbook_sum_eng.jsonl
+│   ├── longdialogue_qa_eng.jsonl
+│   ├── math_calc.jsonl
+│   ├── math_find.jsonl
+│   ├── number_string.jsonl
+│   ├── passkey.jsonl
+│   └── construct_synthetic_dataset.py
+...
 ```
 
 Then, in the `src` folder, execute:

@@ -194,6 +194,20 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         return template.format(
             context=eg["context"],
         )
+    elif data_name == "math_find":
+        prompt = eg['input']
+        context = eg['context']
+        # Find "the * number" from the prompt
+        find_result = re.findall(r"The \w+ number", prompt)
+        assert find_result, f"Cannot find the target number in {prompt}"
+        target_number = find_result[0].lower()
+        # Replace the number with the answer
+        prefix = f"What is {target_number} in the following list?"
+        return template.format(
+            prefix=prefix,
+            context=context,
+            input=prompt,
+        )
 
     if "content" in eg:
         content = eg["content"]
@@ -201,7 +215,6 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         eg["context"] = content
 
     format_dict = {
-        "prompt": eg["prompt"],
         "context": eg["context"],
         "input": eg["input"],
     }
