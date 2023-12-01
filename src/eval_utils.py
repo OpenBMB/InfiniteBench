@@ -223,12 +223,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
 
 
 def get_answer(eg: dict, data_name: str):
-    if data_name == "longbook_choice_eng":
-        return eg["options"].index(eg["answer"])
-    elif data_name == "longbook_sum_eng":
-        return eg["answer"]
-    else:
-        return eg["answer"]
+    return eg["answer"]
 
 
 def create_msgs(

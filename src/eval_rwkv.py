@@ -134,8 +134,8 @@ if __name__ == "__main__":
         preds.append(
             {
                 "id": i,
-                "pred": pred,
-                "label": get_answer(eg, args.task),
+                "prediction": pred,
+                "ground_truth": get_answer(eg, args.task),
             }
         )
         dump_jsonl(preds, output_path)

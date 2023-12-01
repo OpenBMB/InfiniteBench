@@ -343,20 +343,24 @@ def get_score_one(
 
 
 def get_labels(preds: list) -> list[str]:
-    label_key = "ground_truth"
-
-    if label_key in preds[0]:
-        return [x.get(label_key, "XXXXXXXXXX") for x in preds]
+    possible_label_keys = ["ground_truth", "label"]
+    for label_key in possible_label_keys:
+        if label_key in preds[0]:
+            return [x.get(label_key, "XXXXXXXXXX") for x in preds]
     raise ValueError(f"Cannot find label in {preds[0]}")
 
 
 def get_preds(preds: list, data_name: str) -> list[str]:
     pred_strings = []
+    possible_pred_keys = ["prediction", "pred"]
     for pred in preds:
         this_pred = "NO PREDICTION"
-        pred_key = "prediction"
-
-        this_pred = pred[pred_key]
+        for pred_key in possible_pred_keys:
+            if pred_key in pred:
+                this_pred = pred[pred_key]
+                break
+        else:
+            raise ValueError(f"Cannot find prediction in {pred}")
         pred_strings.append(this_pred)
     return pred_strings
 

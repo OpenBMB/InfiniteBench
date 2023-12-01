@@ -70,7 +70,7 @@ if __name__ == "__main__":
             preds.append(
                 {
                     "id": i,
-                    "pred": response.content,
+                    "prediction": response.content,
                     "ground_truth": get_answer(eg, task),
                 }
             )
