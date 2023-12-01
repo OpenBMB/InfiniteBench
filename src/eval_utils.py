@@ -167,7 +167,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         #     raise ValueError("Invalid data_name")
         if data_name == "longbook_choice_eng":
             return template.format(
-                question=eg["question"],
+                question=eg["input"],
                 context=book,
                 OPTION_A=eg["options"][0],
                 OPTION_B=eg["options"][1],
@@ -176,7 +176,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
             )
         elif data_name == "longbook_qa_eng":
             return template.format(
-                question=eg["question"],
+                question=eg["input"],
                 context=book,
             )
         elif data_name == "longbook_sum_eng":

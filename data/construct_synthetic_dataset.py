@@ -6,7 +6,7 @@ import re
 
 def build_number_string():
     #####32
-    prompt = "There is an important info hidden inside a lot of irrelevant text. Find it. I will quiz you about the important information there.\n"
+    # prompt = "There is an important info hidden inside a lot of irrelevant text. Find it. I will quiz you about the important information there.\n"
     #####25
     noise = "The grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\n"
     #####26
@@ -25,7 +25,7 @@ def build_number_string():
         num_noise_i = num_noise[i]
         ret = []
         for j in range(0, num_noise_i+1, step_i):
-            input_text = prompt + noise * j + ans + noise * (num_noise_i - j) + question
+            input_text =  noise * j + ans + noise * (num_noise_i - j)
             for t in range(repeat_time):
                 keys = []
                 for k in range(5):
@@ -34,15 +34,15 @@ def build_number_string():
                     pos = random.randint(0,5+k-1)
                     keys.insert(pos, keys[pos])
                 key_t = "".join(keys)
-                ret.append({"input": input_text.replace("{key}", key_t), "output": key_t, "len": 26 * (num_noise_i - j)})
-        fw = jsonlines.open("number_string_%d.jsonl"%target_length_i, 'w')
+                ret.append({"context": input_text.replace("{key}", key_t), "answer": key_t, "input": question, "len": 26 * (num_noise_i - j)})
+        fw = jsonlines.open("number_string.jsonl", 'w')
         fw.write_all(ret)
         fw.close()
 
 
 def build_passkey():
     #####32
-    prompt = "There is an important info hidden inside a lot of irrelevant text. Find it and memorize them. I will quiz you about the important information there.\n"
+    # prompt = "There is an important info hidden inside a lot of irrelevant text. Find it and memorize them. I will quiz you about the important information there.\n"
     #####25
     noise = "The grass is green. The sky is blue. The sun is yellow. Here we go. There and back again.\n"
     #####26
@@ -67,8 +67,8 @@ def build_passkey():
                     keys.append(str(random.randint(0,9)))
                
                 key_t = "".join(keys)
-                ret.append({"prompt": prompt, "input": question, "context": input_text.replace("{key}", key_t), "answer": key_t, "len": 26 * (num_noise_i - j)})
-        fw = jsonlines.open("passkey_%d.jsonl"%target_length_i, 'w')
+                ret.append({"input": question, "context": input_text.replace("{key}", key_t), "answer": key_t, "len": 26 * (num_noise_i - j)})
+        fw = jsonlines.open("passkey.jsonl", 'w')
         fw.write_all(ret)
         fw.close()
 
@@ -76,21 +76,23 @@ def build_passkey():
 def build_kv_retrieval():
 
     target_length = [64 * 1024, 128 * 1024]
-    interv = [16, 35]
+    # interv = [16, 7]
     nsample = [500, 500]
-    nnoise = [928, 1855]
+    nnoise = [928, 2500]
     for ii in range(1, 2):
         cnt = -1
         ret = []
 
-        with jsonlines.open("kv-retrieval-2500_keys.jsonl") as fin:
+        with jsonlines.open("kv-retrieval-3000_keys.jsonl") as fin:
             for line in fin:
+                print(len(line["ordered_kv_records"]))
+                # return 0
                 cnt += 1
                 if cnt == nsample[ii]:
                     break
-                ans_id = (cnt // interv[ii]) * interv[ii]
+                ans_id = min(int(cnt * nnoise[ii] / nsample[ii]), nnoise[ii])
 
-                text = "Extract the value corresponding to the specified key in the JSON object below.\n\nJSON data:\n{"
+                text = "JSON data:\n{"
                 t = -1
                 random.shuffle(line["ordered_kv_records"])
                 for item in line["ordered_kv_records"]:
@@ -99,21 +101,22 @@ def build_kv_retrieval():
                         break
                     text += "\"" + item[0] + "\": \"" + item[1] + "\", "
                 text = text[:-2] + '}'
-                text += "\nKey: \"" + line["ordered_kv_records"][ans_id][0] +  "\"\nThe value associated with the specified key is: "
+                question = "\nKey: \"" + line["ordered_kv_records"][ans_id][0] +  "\"\nThe value associated with the specified key is: "
+                # text += "\nKey: \"" + line["ordered_kv_records"][ans_id][0] +  "\"\nThe value associated with the specified key is: "
                 # print(len(tokenizer.encode(text)))
                 # break
-                ret.append({"input": text, "output": line["ordered_kv_records"][ans_id][1]})
+                ret.append({"context": text, "input": question, "answer": line["ordered_kv_records"][ans_id][1]})
             
         
-        fw = jsonlines.open("kv_retrieval_%d.jsonl"%(target_length[ii]), 'w')
+        fw = jsonlines.open("kv_retrieval.jsonl", 'w')
         fw.write_all(ret)
         fw.close()
 
 
 if __name__ == "__main__":
     os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
-    os.system("python3 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 2500 --num-examples 500 --output-path kv-retrieval-2500_keys.jsonl.gz")
-    os.system("gzip -d kv-retrieval-2500_keys.jsonl.gz")
+    os.system("python3.10 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 3000 --num-examples 500 --output-path kv-retrieval-3000_keys.jsonl.gz")
+    os.system("gzip -d kv-retrieval-3000_keys.jsonl.gz")
     build_kv_retrieval()
     build_passkey()
     build_number_string()
