@@ -6,20 +6,6 @@
 {"id": 5, "prediction": "五虎门掌门人是胡斐。", "ground_truth": ["凤天南", "天南"]}
 {"id": 6, "prediction": "这本小说中两个相貌非常相似的人是福气龙和陈真山。", "ground_truth": ["陈真山和福气龙"]}
 {"id": 7, "prediction": "乾隆帝的私生子被认为是韦小宝，这个角色是金庸小说《鹿鼎记》中的虚构人物，并非历史人物。在小说中，韦小宝因其机智和幸运，最终成为乾隆帝的秘密儿子，并获得了皇帝的宠信。但实际历史上并无此人。", "ground_truth": ["福气龙"]}
-{"id": 8, "prediction": "曹植大哥逼她嫁给姜家。", "ground_truth": ["姜家残疾的二少爷", "姜家二少爷"]}
-{"id": 9, "prediction": "曹植是曹家的第二个奶奶。", "ground_truth": ["二", "2"]}
-{"id": 10, "prediction": "这小说中曹植的女儿名叫曹芝田立。", "ground_truth": ["子头"]}
-{"id": 11, "prediction": "曹植让子头裹脚，使得她沦为亲戚朋友的笑柄。", "ground_truth": ["裹脚"]}
-{"id": 12, "prediction": "曹植在未嫁之前，她家里是开麻油店的。", "ground_truth": ["开麻油店"]}
-{"id": 13, "prediction": "子头和童安格有了爱情。", "ground_truth": ["安格", "童安格"]}
-{"id": 14, "prediction": "是的，子牙最后吸食了大烟。", "ground_truth": ["是", "有"]}
-{"id": 15, "prediction": "蓝眼是看假画的江隆鑫的外号。", "ground_truth": ["江隆鑫"]}
-{"id": 16, "prediction": "死鸟是贺远帆的雅号。", "ground_truth": ["贺远帆"]}
-{"id": 17, "prediction": "粘土张的绝活是在瞧戏时便捏出戏里角色的泥像，其中最别具一格的是他捏浆糊的方法：他把红虫子存放在嘴边的腮帮子里，需要时用食指和中指的指尖夹住钓钩，然后用嘴巴里的红虫子直接装在鱼钩上，这样既快速又不弄破红虫子，保证鱼钩上的诱饵完整新鲜。", "ground_truth": ["手捏粘土"]}
-{"id": 18, "prediction": "苏大夫本名苏轼文。", "ground_truth": ["苏轼文"]}
-{"id": 19, "prediction": "故事里面说的正骨医生是苏大夫。", "ground_truth": ["苏轼文"]}
-{"id": 20, "prediction": "这个文章总共有18个小说。", "ground_truth": ["18", "十八"]}
-{"id": 21, "prediction": "八哥说了：“裕禄那王八蛋！”", "ground_truth": ["裕禄那王八蛋!"]}
 {"id": 22, "prediction": "孙子斌的大儿子叫孙江涛。", "ground_truth": ["孙江涛"]}
 {"id": 23, "prediction": "江涛出了一万五千元来扩建小学。", "ground_truth": ["一万五千元", "15,000"]}
 {"id": 24, "prediction": "秀莲最后确诊为肺癌。", "ground_truth": ["肺癌"]}

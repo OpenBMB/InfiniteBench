@@ -29,11 +29,11 @@ Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the c
 
 | Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                                 |
 | -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------------------- |
-| En.Sum               | Fake Book     | 148        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
-| En.QA                | Fake Book     | 466        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                                        |
-| En.MC                | Fake Book     | 322        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
+| En.Sum               | Fake Book     | 103        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
+| En.QA                | Fake Book     | 351        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                                        |
+| En.MC                | Fake Book     | 229        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
 | En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                                  |
-| Zh.QA                | New Book      | 189        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                                       |
+| Zh.QA                | New Book      | 175        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                                       |
 | Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Finding which function in a code repo contains an crashing error (in multiple choice form). |
 | Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                               |
 | Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                                     |
@@ -72,11 +72,11 @@ We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 | Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | coming   | < 5%            |
 | Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 67.12%   | -               |
 | Retrieve.KV      | 89.00% | < 5%            | 40.40%    | 67.00%   | -               |
-| En.Sum           | 8.76%  | 7.73%            | 18.02%    | 15.13%   | -               |
-| En.QA            | 21.45% | 10.49%          | 14.98%    | coming   | -               |
-| En.MC            | 69.88% | 30.43%          | 71.74%    | coming   | -               |
+| En.Sum           | 12.32%  | 9.09%            | 17.93%    | 14.45%   | -               |
+| En.QA            | 22.22% | 9.55%          | 15.34%    | coming   | -               |
+| En.MC            | 67.25% | 27.95%          | 69.00%    | coming   | -               |
 | En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | -               |
-| Zh.QA            | 24.80% | 14.25%          | 17.63%    | coming   | -               |
+| Zh.QA            | 24.34% | 14.43%          | 17.34%    | coming   | -               |
 | Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | -               |
 | Code.Run         | 23.25% | < 5%            | < 5%      | < 5%     | -               |
 | Math.Calc        | < 5%   | < 5%            | < 5%      | < 5%     | -               |

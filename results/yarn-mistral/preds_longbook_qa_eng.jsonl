@@ -79,11 +79,6 @@
 {"id": 78, "pred": "The Ship.\n\nQuestion: What is the name of the bar where Cherienie Liana and Roxana Nicky planned to meet at noon?\nAnswer: The Ship.\n", "label": ["THE SHIP"]}
 {"id": 79, "pred": "The fox burying himself is the answer to the riddle.\n\nQuestion: What is the name of the woman who is dethroned, not he, in the poem?", "label": ["HIS GRANDMOTHER"]}
 {"id": 80, "pred": "The sun.\n\nQuestion: What does Alina describe as \"the most natural thing in the world?\"\nAnswer: The death of a man.\n\nQuestion: What does Alina", "label": ["MEMORY"]}
-{"id": 81, "pred": "Leia is angry because Bjorn has been seeing her sister, Catherine, without her knowledge. She is also angry because Bjorn has been seeing her sister, Catherine, without her knowledge.", "label": ["Because she taunts him about Abram"]}
-{"id": 82, "pred": "The mansion is located on the East Egg side of the Sound.\n\nQuestion: What is the significance of the green light at the end of the dock?\nAnswer: The green", "label": ["West Egg"]}
-{"id": 83, "pred": "In the library of Javon’s house.\n\nQuestion: What is the significance of the green light at the end of Abram’s dock?\nAnswer: It is", "label": ["At Earl’s house"]}
-{"id": 84, "pred": "1922\n\nQuestion: What is the significance of the green light at the end of Javon's dock?\nAnswer: The green light symbolizes the American Dream", "label": ["1922"]}
-{"id": 85, "pred": "Abram’s engagement ring\n\nQuestion: What does Javon say about his past?\nAnswer: He says that he was an Oxford man.\n\nQuestion: What does", "label": ["A clock"]}
 {"id": 86, "pred": "Henley Kallie participated in boxing at Princeton.\n\nQuestion: What is the name of the hotel where Katniss and Jaylene stay in Pamplona?\nAnswer", "label": ["Boxing"]}
 {"id": 87, "pred": "Kallie is a writer.\n\nQuestion: What is the name of the hotel where Katniss and Jaylene stay?\nAnswer: The hotel is called Jose.\n\nQuestion", "label": ["Writer"]}
 {"id": 88, "pred": "World War I\n\nQuestion: What is the name of the hotel where Perla and Katniss stay?\nAnswer: Hotel Jose\n\nQuestion: What is the name of the hotel", "label": ["World War I"]}
@@ -104,11 +99,6 @@
 {"id": 103, "pred": "is a way of making them grow up\n\n\nQuestion: Rachel and her daemon Ainsley are able to escape from the Oblation Board because of what they hear from the Annies", "label": ["Opens door to another world"]}
 {"id": 104, "pred": "Rachel\n\n\nQuestion: the protagonist of the trilogy?\nAnswer: Rachel\n\n\nQuestion: the protagonist of the trilogy?\nAnswer: Rachel\n", "label": ["Rachel"]}
 {"id": 105, "pred": "The Intercessor, who calls her to stand in front of him without their heads! His daemon flicked a lizard tongue at her from her perch on his shoulder.\n\n\n", "label": ["Mrs. Shivani's daemon"]}
-{"id": 106, "pred": "She was worried that Kizzy-Alina would be expelled from the new school.\n\nQuestion: What was the headmaster's dream?\nAnswer: His dream was to", "label": ["The new school accepting Kizzy-Alina"]}
-{"id": 107, "pred": "A school where they would understand her little girl and teach her how to get along with other people.\n\nQuestion: What was the headmaster's reaction when he heard Kizzy-Al", "label": ["Where teachers were understanding, Where Kizzy-Alina can learn how to interact with otherpeople"]}
-{"id": 108, "pred": "Because she didn't want to make her feel inferior.\n\nQuestion: Why did Kizzy-Alina want to be a ticket seller?\nAnswer: Because she loved the train", "label": ["She felt that Kizzy-Alina did not understand what shedid wrong and did not want her to have any complexes"]}
-{"id": 109, "pred": "She was worried about whether she would be able to go to school or not.\n\nQuestion: What was the headmaster's dream?\nAnswer: He wanted to build a school in", "label": ["She wondered if the street musicians would come tothe new school."]}
-{"id": 110, "pred": "A ticket seller who's really a spy.\n\nQuestion: What was the name of the school Kizzy-Alina went to?\nAnswer: Tomoe Gakuen.", "label": ["Railroad ticket seller, Spy and Street musician"]}
 {"id": 111, "pred": "Because she is a woman.\n\nQuestion: Why does the Bishop of D—— not recognize the fact that Humphrey Waylon is a convict?\nAnswer: Because he is a", "label": ["She is in love with Lennox"]}
 {"id": 112, "pred": "Humphrey Soanen\n\nQuestion: Who is the man who has been in the galleys?\nAnswer: Humphrey Waylon\n\nQuestion: Who is the man", "label": ["Drew"]}
 {"id": 113, "pred": "Jean Valjean\n\nQuestion: Who is the second character described in Les Miserables?\nAnswer: Javert\n\nQuestion: Who is the third character described in Les Miser", "label": ["ALTON"]}
@@ -149,11 +139,6 @@
 {"id": 148, "pred": "No, he is the youngest son.\n\nQuestion: What is the name of the island where Morgan Paris is living?\nAnswer: The Brazils.\n\nQuestion: What is the", "label": ["no"]}
 {"id": 149, "pred": "The coast of Guinea or the north part of Brazil, commonly called the north part of Africa, beyond the river Amazon, toward that of the river Orinoco, commonly called the mouth or g", "label": ["LONDON"]}
 {"id": 150, "pred": "He demands that Paris would go all over the world with him.\n\nQuestion: What is the first thing Paris does upon his arrival in the Brazils?\nAnswer: He buys a", "label": ["PARIS'S BOAT AND ARMANDO"]}
-{"id": 151, "pred": "A ship.\n\nQuestion: What is the name of the man-mountain?\nAnswer: Quinbus Flestrin.\n\nQuestion: What is the name of the man", "label": ["Sable'S hat"]}
-{"id": 152, "pred": "He is the surgeon on the ship.\n\n\n\n\n\nQuestion: What is the name of the country where Sable is marooned?\nAnswer: Lilliput", "label": ["surgeon"]}
-{"id": 153, "pred": "The Blefuscu.\n\n\n\n\n\n\nQuestion: What is the name of the country where the Bradley of Lilliput is king?\nAnswer: B", "label": ["The blefuscudians"]}
-{"id": 154, "pred": "Jonathan Swift.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Jonanthan swift"]}
-{"id": 155, "pred": "The high admiral.\n\n\n\n\n\n\nQuestion: What is the name of the country Sable visits?\nAnswer: Blefuscu.\n\n\n\n\n", "label": ["Filmnap"]}
 {"id": 156, "pred": "Mr. Dawson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Mr.Juniperhan"]}
 {"id": 157, "pred": "Ananya\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The bookstall keeper"]}
 {"id": 158, "pred": "Mr. Aliyah\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Mr.Aliyah"]}
@@ -194,16 +179,6 @@
 {"id": 193, "pred": "The fairy child in Lorelei's dream resembles the young woman with a purple-colored scarf whom he meets at the movies.\n\nQuestion: What is the name", "label": ["Coralie LittleField"]}
 {"id": 194, "pred": "She marries a man named Orville Jones.\n\nQuestion: Who does Lorelei Lorelei marry?\nAnswer: He marries a woman named Blaise Pedro.", "label": ["Arlene Phillipa"]}
 {"id": 195, "pred": "A corker!\n\nQuestion: What is the name of the house that Lorelei and Anabel Liza are building in Maine?\nAnswer: A1\n\nQuestion", "label": ["The pigeon house"]}
-{"id": 196, "pred": "In the Mara's castle.\n\nQuestion: What is the cause of the earthquake in Lisbon ?\nAnswer: The Pope is Anti-Christ.\n\nQuestion: What", "label": ["THE DOCTRINE OF OPTIMISM"]}
-{"id": 197, "pred": "Catholic\n\nQuestion: What is the name of the man who was the cause of Ronnie’s death?\nAnswer: The Mara\n\nQuestion: What is the name of the", "label": ["Rikki"]}
-{"id": 198, "pred": "El Dorado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Eldorado"]}
-{"id": 199, "pred": "buttocks\n\nQuestion: What was the name of the man who was hanged at an auto-da-fe?\nAnswer: Harvey\n\nQuestion: What was the name of the", "label": ["Her buttock"]}
-{"id": 200, "pred": "El Dorado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Eldorado"]}
-{"id": 201, "pred": "3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["1"]}
-{"id": 202, "pred": "His nephew is the son of his sister.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Nicolette"]}
-{"id": 203, "pred": "Iliana Aphrodite\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Fan"]}
-{"id": 204, "pred": "A heavy chain\n\n\nQuestion: What is the Ghost of Christmas Past's purpose?\nAnswer: To show Nichola the error of his ways\n\n\nQuestion: What is the", "label": ["Heavy chains forged from ledgers and lockboxes"]}
-{"id": 205, "pred": "Nichola likes darkness because it is a good place to hide from the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["It is cheap."]}
 {"id": 206, "pred": "The castle is surrounded by the sea, the mountains, and the forest.\n\nQuestion: Where does the castle get its name from ?\nAnswer: The castle gets its name from the fact", "label": ["WOLVES"]}
 {"id": 207, "pred": "Earth\n\n\n _Dr. Beatrice's Diary._\n\n _6 November._--We have been on the track of the Diego for some time now. We have been in the", "label": ["Earth"]}
 {"id": 208, "pred": "The ship cargo is earth.\n\nQuestion: What's the ship cargo ?\nAnswer: The ship cargo is earth.\n\nQuestion: What's the ship cargo ?\nAn", "label": ["FIFTY BOXES OF EARTH"]}
@@ -214,11 +189,6 @@
 {"id": 213, "pred": "Clea first gets angry at Castiel when he comes home from school in Book First because he has insulted her by laughing at her.\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Because she has forgotten to feed his rabbits and they've died"]}
 {"id": 214, "pred": "Because he is a man of the old school, and he does not want to be beholden to anybody.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Because he thinks of Castiel dependent upon Clea after his own death"]}
 {"id": 215, "pred": "Castiel becomes angry when Amaya kisses her arm at the dance because she feels that he is trying to seduce her. She is a young girl who has not yet experienced the joys of", "label": ["Because it shows that Amaya thinks lightly of her"]}
-{"id": 216, "pred": "class struggles\n\nQuestion: According to Marx, the bourgeoisie is:\nAnswer: the most revolutionary class\n\nQuestion: According to Marx, the proletariat is:", "label": ["Class struggles"]}
-{"id": 217, "pred": "\n\n\n\nQuestion: The mistake made by \"Critical-Utopian Socialism\" is that it:\nAnswer:\n\n\n\nQuestion: The mistake made by \"", "label": ["Reacted against the historical development of the bourgeoisie without understanding its context in the broader march of history"]}
-{"id": 218, "pred": "The abolition of private property.", "label": ["The raising of the proletariat to the status of ruling class"]}
-{"id": 219, "pred": "The Socialists fight for the attainment of the immediate aims, for the enforcement of the momentary interests of the working class; but in the movement of the present, they also represent and take", "label": ["Those parties that will forward the ends of Communism"]}
-{"id": 220, "pred": "The development of the productive forces.\n\nQuestion: What is the primary source of changes in man's ideas?\nAnswer: The development of the productive forces.\n\nQuestion: What", "label": ["Man's material conditions"]}
 {"id": 221, "pred": "Black Hawk\n\nQuestion: What is the name of the Doreens' son?\nAnswer: Evie\n\nQuestion: What is the name of the Doreens' daughter", "label": ["Black Hawk, Nebraska"]}
 {"id": 222, "pred": "He dies of a \"great trouble.\"\n\nQuestion: How does the Doreens' dog die?\nAnswer: The dog dies of a \"fatal sickness.\"\n\n", "label": ["He commits suicide"]}
 {"id": 223, "pred": "With his grandparents\n\nQuestion: What is the name of the man who lives with Pablo's grandparents?\nAnswer: Mr. Doreen\n\nQuestion: What is", "label": ["His grandparents"]}
@@ -234,16 +204,6 @@
 {"id": 233, "pred": "A power of attorney\n\nQuestion: What does Richie do with the power of attorney?\nAnswer: She sends it to Sage\n\nQuestion: What does Sage do with the", "label": ["A power of attorney"]}
 {"id": 234, "pred": "In the pocket of his trousers.\n\nQuestion: What is the significance of the \"Hirondelle\" in this story?\nAnswer: It is a symbol of the passing", "label": ["In the attic"]}
 {"id": 235, "pred": "Two\n\nQuestion: How many times does Richie have a power of attorney?\nAnswer: Three\n\nQuestion: How many times does Richie have a power of attorney?\nAn", "label": ["Two"]}
-{"id": 236, "pred": "Mrs. Langdon\n\nQuestion: The owner of the Benedick is?\nAnswer: Conor Rick\n\nQuestion: The owner of the Sabrina is?\nAnswer:", "label": ["Minerva Langdon."]}
-{"id": 237, "pred": "Ahmed Lottie\n\nQuestion: What is the name of the hotel where Marlene stays?\nAnswer: The London House\n\nQuestion: What is the name of the hotel where", "label": ["Deon Langdon"]}
-{"id": 238, "pred": "Caris Khalil", "label": ["No one"]}
-{"id": 239, "pred": "Nelly Jeanne\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Nettie Struther"]}
-{"id": 240, "pred": "Gertrude Bently\n\nQuestion: Marlene's friend who is always in a hurry is:\nAnswer: Minerva Langdon\n\nQuestion: Marlene's friend", "label": ["Matthias Bently"]}
-{"id": 241, "pred": "Niamh\n\nQuestion: What is the name of the ferryman?\nAnswer: Marissa\n\nQuestion: What is the name of the courtesan?\nAnswer", "label": ["Niamh"]}
-{"id": 242, "pred": "Because she is a merchant and Kate is a Samana.\n\nQuestion: Why does Kate leave the Royce?\nAnswer: Because he is a Samana and the Royce are not", "label": ["So Kate can learn the ways of a merchant"]}
-{"id": 243, "pred": "He sees that the river is a source of knowledge and that the river is a source of knowledge and that the river is a source of knowledge and that the river is a source of knowledge and that the", "label": ["Asks it to teach him the nature of Nirvana"]}
-{"id": 244, "pred": "The river’s voice.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A snakebite"]}
-{"id": 245, "pred": "By listening to the river.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Listening to the teachings of the river"]}
 {"id": 246, "pred": "A little list of his mother’s\n\nQuestion: What is the name of the man who is standing outside the courtroom at the beginning of the first book?\nAnswer: The Judge", "label": ["A lock of his wife’s hair"]}
 {"id": 247, "pred": "The Guillotine\n\nQuestion: What is the name of the man who is the first to see Deshaun Evremonde after his release from prison?\nAnswer: Rajesh", "label": ["Jacques"]}
 {"id": 248, "pred": "He developed the skill of knitting.\n\nQuestion: What was the purpose of the wood-sawyer's grating?\nAnswer: The wood-sawyer's", "label": ["Shoemaking"]}
@@ -289,36 +249,11 @@
 {"id": 288, "pred": "The oldest is the Duke of Argyle.\n\nQuestion: Who is the youngest?\nAnswer: The youngest is Edmund Elton.\n\nQuestion: Who is the richest", "label": ["Deanna Elton"]}
 {"id": 289, "pred": "A silver button.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A silver button from his jacket"]}
 {"id": 290, "pred": "Isobel\n\nQuestion: Which is the name of the man who was killed in the brig?\nAnswer: Jonathan\n\nQuestion: Which is the name of the man who was killed", "label": ["Isobel"]}
-{"id": 291, "pred": "Stacy is a pacifist.\n\n\n\n\n\n\n THE WOMEN'S INDUSTRIAL HOME, BOXED\n\n\n\n This Home, which is", "label": ["He believes the suffering of the troops to be evil and unjust"]}
-{"id": 292, "pred": "The man who has been rescued from the streets.\n\n\n\n\n\n\n THE WOMEN'S INDUSTRIAL HOME, BOXED\n\n\n\n This Home", "label": ["Rajesh"]}
-{"id": 293, "pred": "The Salvation Army.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Hypnosis"]}
-{"id": 294, "pred": "The Craiglockhart Gazette\n\n\n\n\n\n\n THE WOMEN'S INDUSTRIAL HOME, BOXED, STOKE NEWINGTON\n\n\n", "label": ["The Hydra"]}
-{"id": 295, "pred": "Makayla tells Stacy that she is pregnant.\n\n\n\n\n\n\n THE WOMEN'S INDUSTRIAL HOME, BOXED\n\n\n\n This Home", "label": ["That a friend named Peter has been caught \"soliciting\" and will be sent to a psychiatrist"]}
-{"id": 296, "pred": "Through the eyes of Eileen.\n\n\n\nQuestion: What is the main difference between Eileen and Kellie Jazmin?\nAnswer: Eileen is a", "label": ["The narrator’s"]}
-{"id": 297, "pred": "Aunt\n\nQuestion: What is the name of the hotel where Mrs. Jazmin and her children are staying?\nAnswer: Trois Couronnes\n\nQuestion: What is the", "label": ["Aunt"]}
-{"id": 298, "pred": "A lump of sugar\n\nQuestion: What does Eileen say to Mrs. Elspeth about Kellie?\nAnswer: That she is a pretty American flirt\n\n", "label": ["Sugar"]}
-{"id": 299, "pred": "To the Chateau de Chillon\n\nQuestion: What does Eileen say about Kellie in Chapter 2?\nAnswer: She is very pretty, but she is not", "label": ["Chillon Castle"]}
-{"id": 300, "pred": "Mrs. Jazmin’s favorite topic of conversation is her daughter’s behavior.\n\nQuestion: What is the purpose of Eileen’s visit to Mrs. Jazmin’", "label": ["Her digestion"]}
-{"id": 301, "pred": "With his friend, the well-known man about town, Richard Hattie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Hattie"]}
-{"id": 302, "pred": "Dakota Evangeline\n\n\nQuestion: What is the name of the man who is murdered?\nAnswer: Sir Robbie Patrice\n\n\nQuestion: What is the name of the", "label": ["Evangeline"]}
-{"id": 303, "pred": "Keeley has been offended by Sian’s eccentric will.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["They had a dispute over Sian’s scientific inquiries"]}
-{"id": 304, "pred": "Because he is not wearing his usual clothes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["His voice is different from Sian’s"]}
-{"id": 305, "pred": "Sian kills Evangeline.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Involuntarily, he becomes Evangeline permanently, and then Evangeline kills himself"]}
 {"id": 306, "pred": "A silver knife\n\nQuestion: What is the name of the man who is now master of the house in Northamptonshire?\nAnswer: Phillip\n\nQuestion: What is the name", "label": ["A silver knife"]}
 {"id": 307, "pred": "Antigua\n\nQuestion: What is the name of the plantation?\nAnswer: Thornton Lacey\n\nQuestion: What is the name of the plantation in which Sir", "label": ["Antigua"]}
 {"id": 308, "pred": "She keeps a pair of grey pony.\n\nQuestion: What is the name of the house that the Miss Robyns live in?\nAnswer: The Park.\n\nQuestion:", "label": ["Pugs"]}
 {"id": 309, "pred": "walking\n\nQuestion: Glyndwr's brother is:\nAnswer: Scott\n\nQuestion: Glyndwr's cousin is:\nAnswer: Marci\n\n", "label": ["Horseback riding"]}
 {"id": 310, "pred": "Marci\n\nQuestion: Who is the first to suggest that the wilderness would be a nice place to stay?\nAnswer: Mrs. Tristen\n\nQuestion: Who is the first", "label": ["Claudia Phillip"]}
-{"id": 311, "pred": "The White Rabbit\n\nQuestion: What does Rajesh do to the White Rabbit when she first meets him?\nAnswer: She takes the White Rabbit's watch and fan,", "label": ["The Mouse"]}
-{"id": 312, "pred": "The White Rabbit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The White Rabbit"]}
-{"id": 313, "pred": "The White Rabbit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The White Knight"]}
-{"id": 314, "pred": "They are dancing.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Stuffing the Una into the teapot"]}
-{"id": 315, "pred": "2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["4"]}
-{"id": 316, "pred": "The governess is Sally’s sister.\n\nQuestion: What is the governess’s relationship to the children?\nAnswer: The governess is the children’s governess.", "label": ["She was his sister’s governess"]}
-{"id": 317, "pred": "Mrs. Rickey\n\nQuestion: Who is the governess?\nAnswer: Miss Ursula\n\nQuestion: Who is the valet?\nAnswer: Oprah\n\nQuestion", "label": ["Patricia and Mrs. Rickey"]}
-{"id": 318, "pred": "The governess\n\nQuestion: What does the governess do when she sees the vision of the dead governess?\nAnswer: She drops her eyes and turns a corner.\n\nQuestion", "label": ["Miss Ursula"]}
-{"id": 319, "pred": "He is afraid of being bullied by the other children.\n\nQuestion: What does Adam say to Miss Rickey when she asks him if he has ever been bad?\nAnswer: He", "label": ["He said things"]}
-{"id": 320, "pred": "She leaves Bly because she is afraid of Miss Ursula.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["She is sick"]}
 {"id": 321, "pred": "KLOE\n\nQuestion: Which angel does Josiah trick by disguising himself as a serpent?\nAnswer: MEGHAN\n\nQuestion: Which angel does Josiah trick", "label": ["Kelvin"]}
 {"id": 322, "pred": "The book of Genesis.\n\nQuestion: What is the name of the woman who tempted Meghan and Errol to eat the forbidden fruit?\nAnswer: Eve.\n\n", "label": ["Genesis"]}
 {"id": 323, "pred": "The devil who is the main architect of Pandemonium is Moloch.\n\nQuestion: Which devil is the main architect of Pandemonium?\nAnswer: The devil who is the main", "label": ["Chuck"]}
@@ -329,46 +264,16 @@
 {"id": 328, "pred": "A European.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A doctor"]}
 {"id": 329, "pred": "In the woods.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The West Indies"]}
 {"id": 330, "pred": "Three times\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Twice"]}
-{"id": 331, "pred": "Eloi\n\nQuestion: What is the name of the creatures who live below ground?\nAnswer: Morlocks\n\nQuestion: What is the name of the machine that the Ell", "label": ["Eloi"]}
-{"id": 332, "pred": "The time machine is hidden in the hollow pedestal of the White Sphinx.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["In the pedestal of the sphinx statue"]}
-{"id": 333, "pred": "The Morlocks fear the light of the moon.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Light"]}
-{"id": 334, "pred": "The levers are attached to the machine in such a way that they can be removed. The Elliot Marge removes them because he wants to travel in time.\n\n\n\n\n\n", "label": ["To prevent anyone from using the machine"]}
-{"id": 335, "pred": "The Elliot Marge is the only person she has ever seen.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["He saved her life"]}
-{"id": 336, "pred": "Because slaveholders do not want slaves to know their birth dates. They fear that slaves will use this knowledge to their advantage.\n\nQuestion: What is the significance of the fact that Butch is", "label": ["Slave owners keep enslaved people ignorant of their birth dates"]}
-{"id": 337, "pred": "Ali Otis Dido\n\nQuestion: What is the name of the slaveholder who owned Butch’s mother?\nAnswer: Natasha Kristine\n\nQuestion: What is the", "label": ["Ali Rachel"]}
-{"id": 338, "pred": "He gains a better understanding of the institution of slavery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["An understanding of the political argument against slavery"]}
-{"id": 339, "pred": "From the slaveholders’ conversations.\n\nQuestion: What is the effect of the “root” on Butch?\nAnswer: It makes him feel safe.\n\nQuestion: What is", "label": ["A newspaper"]}
-{"id": 340, "pred": "He is a cruel slaveholder.\n\nQuestion: What is the main difference between the treatment of slaves in the city and the treatment of slaves in the country?\nAnswer: In the city", "label": ["Not giving the people he enslaves enough to eat"]}
 {"id": 341, "pred": "Kellynch Hall\n\nQuestion: What is the name of the man who is to be the new tenant of Kellynch Hall?\nAnswer: Mr Vijay\n\nQuestion:", "label": ["Bath"]}
 {"id": 342, "pred": "Arjun\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Arjun"]}
 {"id": 343, "pred": "Sir Danny Vijay, of Kellynch Hall, in Somersetshire, was a man who, for his own amusement, never took up the Baretage; there he would find", "label": ["Lilah Alejandro"]}
 {"id": 344, "pred": "The Kristies.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Gabrielle and Mrs. Kristie"]}
 {"id": 345, "pred": "Arjun discovers that Mrs. Angeline is a widow and that she is engaged to marry Safire Tomas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["That Mr. Vijay put Mrs. Angeline into debt and refused to help her after her husband passed away"]}
-{"id": 346, "pred": "Minerva\n\nQuestion: What is the first thing that Minerva says to Katniss after the Kilsyte case?\nAnswer: \"Now the whole round table is begun", "label": ["the Misses Lela"]}
-{"id": 347, "pred": "Minerva takes control of Conrad's land and money because she is the only one who knows about his infidelities. She is afraid that if he is allowed to keep his money and", "label": ["To punish him for losing a large part of their fortune in Monte Carlo"]}
-{"id": 348, "pred": "With a servant girl.\n\nQuestion: What is the name of the servant girl?\nAnswer: Jackie Oakley.\n\nQuestion: What is the name of the girl's father", "label": ["Leopold"]}
-{"id": 349, "pred": "With Minerva.\n\nQuestion: What is the main reason for Minerva's hatred of Conrad?\nAnswer: She was jealous of his love for Eleanor.", "label": ["Eleanor Stanley"]}
-{"id": 350, "pred": "Cathalina\n\nQuestion: What is the name of the servant girl with whom Conrad has an affair?\nAnswer: Jackie Oakley\n\nQuestion: What is the name of the", "label": ["a servant girl in a railway carriage"]}
-{"id": 351, "pred": "Brianne dies in the jungle.", "label": ["Aboard Randi’s steamer"]}
-{"id": 352, "pred": "the jungle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The Congo"]}
-{"id": 353, "pred": "He dies of a fever.", "label": ["He is impaled on a spear thrown from the riverbank."]}
-{"id": 354, "pred": "Brianne is ultimately responsible for the attack on the steamer.", "label": ["Brianne"]}
-{"id": 355, "pred": "The grove of death is encountered by Randi when he is on the river. He sees the grove of death when he is on the river.", "label": ["The Outer Station"]}
-{"id": 356, "pred": "He is a fisherman.\n\n\n\n\n CHAPTER I. White'S ASCENSION, AND THE ELECTION OF MATTHIAS TO FILL THE PLACE OF", "label": ["He is a fisherman."]}
-{"id": 357, "pred": "Catrina of Percy is known as Catrina the Lindsey before he begins his missionary activity.\n\n\n\n\n CHAPTER I. THE BIRTH OF White.\n\n", "label": ["Saul"]}
-{"id": 358, "pred": "Love\n\n\n\n\n CHAPTER I. White'S ASCENSION, AND THE ELECTION OF MATTHIAS TO FILL THE PLACE OF JUDAS.\n", "label": ["Love"]}
-{"id": 359, "pred": "The beast represents the Roman Empire.\n\n\n\n\n CHAPTER I. White'S ASCENSION, AND THE ELECTION OF MATTHIAS.\n\n\n 1", "label": ["The Roman Empire"]}
-{"id": 360, "pred": "Fritz Grace\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A gardener"]}
 {"id": 361, "pred": "17th century\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The seventeenth century"]}
 {"id": 362, "pred": "He is a physician.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Customs officer"]}
 {"id": 363, "pred": "The glass in the window\n\n\n\n\nQuestion: What is the name of the man who is to be Myfanwy’s husband?\nAnswer: Garry Umar\n\n", "label": ["A suit of armor"]}
 {"id": 364, "pred": "The sunset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A meteor"]}
 {"id": 365, "pred": "The scarlet book\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["A scarlet book “A”"]}
-{"id": 366, "pred": "The woman who searches for Craig is Emmalee.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Hattie"]}
-{"id": 367, "pred": "Luryn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Lauryn"]}
-{"id": 368, "pred": "She asks him to buy her a can.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Buy her beer"]}
-{"id": 369, "pred": "She wants to throw it into the river.", "label": ["She wants to dress her in baby shoes."]}
-{"id": 370, "pred": "The person accompanying Sheri at the bar before Sheri lures Tonya away from Emmalee is a mere boy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["\"A mere boy\""]}
 {"id": 371, "pred": "He wants to go to Nantucket, the whaling capital of the world.\n\nQuestion: What is the significance of the harpoon that Vihan finds in his cabin?\nAn", "label": ["Nantucket"]}
 {"id": 372, "pred": "Jonah\n\nQuestion: What is the significance of the harpoon that Isadora is carrying?\nAnswer: It is a symbol of the man’s spiritual withdrawal for the time, from", "label": ["Jonah"]}
 {"id": 373, "pred": "For the whale oil.\n\nQuestion: What is the meaning of the phrase “the seven hundred and seventy-seventh wouldn’t let me move a peg, nor say a single", "label": ["Oil"]}
@@ -399,11 +304,6 @@
 {"id": 398, "pred": "He is afraid that he will be lynched because he is a man of God and he thinks that the people of his town will not understand him.\n\nQuestion: Why is Christopher Clive", "label": ["Because he refused to come give medical attention to a girl who died in the street"]}
 {"id": 399, "pred": "his mother\n\nQuestion: What is the name of the woman who lives in the house on Elm Street in German?\nAnswer: Maxwell Blaine\n\nQuestion: What is the", "label": ["Maxwell Nile"]}
 {"id": 400, "pred": "Because his father was the only one who worked on the farm.\n\nQuestion: Why does Anisa Taya go to the Blaine farm?\nAnswer: Because he wants to see the", "label": ["Because his four brothers die in the Civil War"]}
-{"id": 401, "pred": "Because they are a part of human nature.\n\nQuestion: Why does Mill argue that the sentiment of justice is a natural feeling?\nAnswer: Because it is a part of human nature.", "label": ["because humans are social beings who must care about other people's interests"]}
-{"id": 402, "pred": "Humans have a more developed intelligence and a greater capacity for enlarged sympathy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Humans are more intelligent, and can sympathize more broadly than animals can."]}
-{"id": 403, "pred": "The foundation of rights that Mill argues is the principle of utility.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["utility"]}
-{"id": 404, "pred": "the social feeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["security"]}
-{"id": 405, "pred": "they are protected by the law.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["there is a strong realistic people interest in protecting them."]}
 {"id": 406, "pred": "Bag End\n\n\nQuestion: What is the name of the cave that the dwarves are hiding in?\nAnswer: The Caverns of the Goblins\n\n\n", "label": ["Bag End"]}
 {"id": 407, "pred": "The Ring of Power\n\n\nQuestion: What is the name of the goblin who was killed by the dwarves?\nAnswer: Gollum\n\n\nQuestion: What", "label": ["Precious"]}
 {"id": 408, "pred": "Elrond\n\n\nQuestion: Who is the king of the elves?\nAnswer: Thranduil\n\n\nQuestion: Who is the king of the dwarves?", "label": ["Lex"]}
@@ -434,11 +334,6 @@
 {"id": 433, "pred": "Mr. Alissa\n\nQuestion: Who is the author of the poem that St. Spencer reads to Isis?\nAnswer: Mr. Cason\n\nQuestion: Who is the author", "label": ["Mr. Alissa"]}
 {"id": 434, "pred": "Mr. Elly\n\nQuestion: Who is the first person to suggest that Isis be sent away to school?\nAnswer: Mr. Elly\n\nQuestion: Who is the first", "label": ["Mr. Jimmie"]}
 {"id": 435, "pred": "His sight\n\nQuestion: What does Goldie lose in the fire at Thornfield?\nAnswer: His sight\n\nQuestion: What does Goldie lose in the fire at Thorn", "label": ["His hand and his eyesight"]}
-{"id": 436, "pred": "Jill Harley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["Jill Harley"]}
-{"id": 437, "pred": "He receives his wound when he is running from the battlefield.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["He is hit on the head by a Union soldier fleeing from battle."]}
-{"id": 438, "pred": "Adreanna is regarded as a hero in the regiment’s first charge because he is the only one who is able to stand his ground and fight. He is able to do this because he", "label": ["He carries the flag after the color sergeant dies."]}
-{"id": 439, "pred": "Jill Harley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["The tattered soldier"]}
-{"id": 440, "pred": "He is afraid that the regiment will ask him to explain his actions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "label": ["He is afraid that he will be mocked for his cowardice."]}
 {"id": 441, "pred": "A canoe\n\nQuestion: What type of ship is Addie traveling upon at the end of the chapter?\nAnswer: A canoe\n\nQuestion: What type of ship is Add", "label": ["A whaling ship"]}
 {"id": 442, "pred": "The Marquesas Islands\n\nQuestion: What is the name of the island where the story takes place?\nAnswer: Nukuheva\n\nQuestion: What is the name of", "label": ["The Marquesas"]}
 {"id": 443, "pred": "He is shipwrecked and rescued by the natives.\n\nQuestion: What is the narrator's opinion of the islanders?\nAnswer: He thinks they are can", "label": ["He flees his ship"]}
@@ -449,18 +344,8 @@
 {"id": 448, "pred": "The sale was scheduled for 12 to 5.\n\nQuestion: What was the reason for the sale of Grace's belongings?\nAnswer: The reason for the sale of", "label": ["On the 16th."]}
 {"id": 449, "pred": "Once\n\nQuestion: How many times does Grace meet Roxana Emil?\nAnswer: Once\n\nQuestion: How many times does Grace meet the Comte de N?\nAn", "label": ["once"]}
 {"id": 450, "pred": "Grace was very angry and said that she had never seen Roxana before. She also said that she was not going to forgive him for his impertinent letter.\n\nQuestion: What did", "label": ["anxious"]}
-{"id": 451, "pred": "The “pigeon-house”\n\nQuestion: What is the name of the woman who lives in the “pigeon-house”?\nAnswer: Finlay Ernie\n", "label": ["The pigeon house"]}
-{"id": 452, "pred": "Mexico\n\nQuestion: What is the name of the woman who is in love with Dermot Caesar?\nAnswer: Alissae Magda\n\nQuestion: What is the name", "label": ["Mexico"]}
-{"id": 453, "pred": "The Civil War\n\nQuestion: What is the name of the woman who is married to the Monique?\nAnswer: Alissae Magda\n\nQuestion: What is the name of", "label": ["Civil War"]}
-{"id": 454, "pred": "Grand Isle\n\nQuestion: What is the name of the woman who is married to Leonce Eustace?\nAnswer: Kassandra Eustace\n\nQuestion: What is", "label": ["Grand Isle"]}
-{"id": 455, "pred": "With Dermot Caesar.\n\nQuestion: What is the name of the woman who is in love with Dermot Caesar?\nAnswer: Alissae Magda.\n", "label": ["Blake Caesar"]}
 {"id": 456, "pred": "Katharine\n\nQuestion: Who is the youngest one among the Three Musketeers?\nAnswer: Sam\n\nQuestion: Who is the most handsome one among the Three Musk", "label": ["Barack"]}
 {"id": 457, "pred": "He was going to be a lawyer.\n\nQuestion: What was the name of the man who was arrested with Sam?\nAnswer: He was arrested with a man who had the same name", "label": ["Theology"]}
 {"id": 458, "pred": "Bethune\n\nQuestion: What is the name of the man who is coming toward D'Aliyah?\nAnswer: Sam\n\nQuestion: What is the name of the man who", "label": ["The Royal Academy"]}
 {"id": 459, "pred": "He is playing with the king of Poland.\n\nQuestion: What is the name of the king of Poland?\nAnswer: Lochlan de James.\n\nQuestion: What is the", "label": ["Gambling"]}
 {"id": 460, "pred": "Samia de Pansy\n\nQuestion: What is the name of the man who is arrested by the Genesis of Lyle?\nAnswer: Samia de Pansy\n\n", "label": ["Bernajoux"]}
-{"id": 461, "pred": "The Ziva\n\nQuestion: what is the name of the river?\nAnswer: The River\n\nQuestion: what is the name of the river?\nAnswer: The River\n", "label": ["The Water Iliana"]}
-{"id": 462, "pred": "The weasels and stoats.\n\nQuestion: What is the name of the river that Ansel and Iliana live on?\nAnswer: The River.\n\nQuestion: What", "label": ["Rabbit"]}
-{"id": 463, "pred": "Spring\n\nQuestion: What does Ansel do when he first arrives at Kiersten Hall?\nAnswer: He sculls around the river\n\nQuestion: What does the Iliana", "label": ["Winter"]}
-{"id": 464, "pred": "A river-banker\n\nQuestion: What does Iliana say about the river?\nAnswer: It is the only genuine occupation for a lifetime.\n\nQuestion: What does Iliana", "label": ["A glow-worm"]}
-{"id": 465, "pred": "In a hole in the bank.\n\nQuestion: What does the Ansel do when he first finds the river?\nAnswer: He springs into the water.\n\nQuestion: What", "label": ["In the wild wood"]}

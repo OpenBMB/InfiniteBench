@@ -6,20 +6,6 @@
 {"id": 5, "prediction": "赵晨阳\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["凤天南", "天南"]}
 {"id": 6, "prediction": "\n1. 胡一统和圆性\n2. 胡一统和程紫洁\n3. 胡一统和薛鹊\n", "ground_truth": ["陈真山和福气龙"]}
 {"id": 7, "prediction": "\n1. 乾隆帝私生子是谁？\n答案：\n乾隆帝私生子是谁？\n乾隆", "ground_truth": ["福气龙"]}
-{"id": 8, "prediction": "芝田立\n\n问题：芝田立是什么样的人？\n答案：他是个狗眼看人的人，他是", "ground_truth": ["姜家残疾的二少爷", "姜家二少爷"]}
-{"id": 9, "prediction": "第三个\n\n问题：七巧的儿子是谁\n答案：子牙\n\n问题：七巧的女儿是��", "ground_truth": ["二", "2"]}
-{"id": 10, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["子头"]}
-{"id": 11, "prediction": "\n（1）\n曹植让子头做什么使得她沦为亲戚朋友的笑柄？\nA. ", "ground_truth": ["裹脚"]}
-{"id": 12, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["开麻油店"]}
-{"id": 13, "prediction": "子头和童安格有了爱情。\n\n问题：曹植的女儿是不是子头的姐姐？\n答", "ground_truth": ["安格", "童安格"]}
-{"id": 14, "prediction": "不\n\n问题：曹植的女儿是不是子头的妹妹\n答案：是\n\n问题：曹植的", "ground_truth": ["是", "有"]}
-{"id": 15, "prediction": "贺远帆\n\n问题：贺远帆的外号是什么？\n答案：死鸟\n\n问题：�", "ground_truth": ["江隆鑫"]}
-{"id": 16, "prediction": "贺远帆\n\n问题：粘土张是谁的外号\n答案：蔡二少爷\n\n问题", "ground_truth": ["贺远帆"]}
-{"id": 17, "prediction": "粘土张的绝活是，他能把人家的眼睛瞧透。\n\n问题：粘土张的绝活是什", "ground_truth": ["手捏粘土"]}
-{"id": 18, "prediction": "苏金伞\n\n问题：苏大夫的外号是？\n答案：苏七块\n\n问题：苏大夫的本事是？\n答", "ground_truth": ["苏轼文"]}
-{"id": 19, "prediction": "苏轼文\n\n问题：故事里面说的牙医是谁？\n答案：华大夫\n\n问题：故事里面说", "ground_truth": ["苏轼文"]}
-{"id": 20, "prediction": "10", "ground_truth": ["18", "十八"]}
-{"id": 21, "prediction": "裕禄到远帆家里作客的时候，八哥说了什么给远帆惹祸，请按照", "ground_truth": ["裕禄那王八蛋!"]}
 {"id": 22, "prediction": "孙江涛\n\n\n问题：孙子斌的小儿子叫什么名字？\n答案：孙琦\n\n\n问题：", "ground_truth": ["孙江涛"]}
 {"id": 23, "prediction": "一万五千元。\n\n问题：孙江涛的砖瓦厂，是否真的盈利了？\n答案：是", "ground_truth": ["一万五千元", "15,000"]}
 {"id": 24, "prediction": "她是在医院实习的，因此经常被病人抢着救。\n\n问题：孙江涛为什么不想回", "ground_truth": ["肺癌"]}
