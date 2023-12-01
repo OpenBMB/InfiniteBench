@@ -74,7 +74,7 @@ We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 | Retrieve.KV      | 89.00% | < 5%            | 40.40%    | 67.00%   | -               |
 | En.Sum           | 12.32%  | 9.09%            | 17.93%    | 14.45%   | -               |
 | En.QA            | 22.22% | 9.55%          | 15.34%    | coming   | -               |
-| En.MC            | 67.25% | 27.95%          | 69.00%    | coming   | -               |
+| En.MC            | 67.25% | 27.95%          | 69.00%    | 62.88%   | -               |
 | En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | -               |
 | Zh.QA            | 24.34% | 14.43%          | 17.34%    | coming   | -               |
 | Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | -               |

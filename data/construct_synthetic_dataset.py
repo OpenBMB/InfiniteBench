@@ -105,7 +105,7 @@ def build_kv_retrieval():
                 # text += "\nKey: \"" + line["ordered_kv_records"][ans_id][0] +  "\"\nThe value associated with the specified key is: "
                 # print(len(tokenizer.encode(text)))
                 # break
-                ret.append({"context": text, "input": question, "answer": line["ordered_kv_records"][ans_id][1]})
+                ret.append({"id": cnt, "context": text, "input": question, "answer": line["ordered_kv_records"][ans_id][1]})
             
         
         fw = jsonlines.open("kv_retrieval.jsonl", 'w')
