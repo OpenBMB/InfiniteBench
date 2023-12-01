@@ -67,14 +67,14 @@ This will directly dump the data to `data`.
 
 We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 
-| Task Name        | GPT-4  | Yarn-Mistral-7B | Kimi-Chat | Claude 2 | RWKV-4-World-7B |
+| Task Name        | GPT-4  | YaRN-Mistral-7B | Kimi-Chat | Claude 2 | RWKV-4-World-7B |
 | ---------------- | ------ | --------------- | --------- | -------- | --------------- |
 | Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | coming   | < 5%            |
 | Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 67.12%   | -               |
 | Retrieve.KV      | 89.00% | < 5%            | 40.40%    | 67.00%   | -               |
-| En.Sum           | 8.76%  | < 5%            | 18.02%    | 15.13%   | -               |
-| En.QA            | 21.45% | 10.22%          | 14.98%    | coming   | -               |
-| En.MC            | 69.88% | 26.71%          | 71.74%    | coming   | -               |
+| En.Sum           | 8.76%  | 7.73%            | 18.02%    | 15.13%   | -               |
+| En.QA            | 21.45% | 10.49%          | 14.98%    | coming   | -               |
+| En.MC            | 69.88% | 30.43%          | 71.74%    | coming   | -               |
 | En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | -               |
 | Zh.QA            | 24.80% | 14.25%          | 17.63%    | coming   | -               |
 | Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | -               |
@@ -135,6 +135,23 @@ python eval_yarn_mistral.py --task kv_retrieval
 python eval_gpt4.py --task longbook_sum_qa
 python eval_rwkv.py --task passkey
 ```
+
+The available tasks are:
+
+| Task Name        | Argument to specify in `--task` |
+| ---------------- | ------------------------------- |
+| En.Sum           | longbook_sum_qa                 |
+| En.QA            | longbook_qa_eng                 |
+| En.MC            | longbook_choice_eng             |
+| En.Dia           | longdialogue_qa_eng             |
+| Zh.QA            | longbook_qa_chn                 |
+| Code.Debug       | code_debug                      |
+| Code.Run         | code_run                        |
+| Math.Calc        | math_calc                       |
+| Math.Find        | math_find                       |
+| Retrieve.PassKey | passkey                         |
+| Retrieve.Number  | number_string                   |
+| Retrieve.KV      | kv_retrieval                    |
 
 ## Citation
 
