@@ -29,11 +29,11 @@ Welcome to InfiniteBench, a cutting-edge benchmark tailored for evaluating the c
 
 | Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                                 |
 | -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------------------- |
-| En.Sum               | Fake Book     | 103        | 131.7k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
-| En.QA                | Fake Book     | 351        | 155.3k           | 4.9               | Free-form question answering based on the fake book.                                        |
-| En.MC                | Fake Book     | 229        | 142.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
+| En.Sum               | Fake Book     | 103        | 171.5k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
+| En.QA                | Fake Book     | 351        | 192.6k           | 4.8               | Free-form question answering based on the fake book.                                        |
+| En.MC                | Fake Book     | 229        | 184.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
 | En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                                  |
-| Zh.QA                | New Book      | 175        | 1918.1k          | 6.2               | Question answering on a set of newly collected books.                                       |
+| Zh.QA                | New Book      | 175        | 2068.6k          | 6.3               | Question answering on a set of newly collected books.                                       |
 | Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Finding which function in a code repo contains an crashing error (in multiple choice form). |
 | Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                               |
 | Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                                     |

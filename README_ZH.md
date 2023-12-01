@@ -23,20 +23,21 @@
 
 ## 任务构成
 
-| 任务             | 内容          | 样本数量 | 平均上下文 token 数量 | 平均输出 token 数量 | 任务描述                                                               |
-| ---------------- | ------------- | -------- | --------------------- | ------------------- | ---------------------------------------------------------------------- |
-| 摘要(英)         | Fake Book     | 148      | 131.7k                | 1.1k                | Summarization of a fake book created through key entity substitution.  |
-| En.QA            | Fake Book     | 466      | 155.3k                | 4.9                 | Question Answering based on the fake book.                             |
-| En.MC            | Fake Book     | 322      | 142.4k                | 5.3                 | Multiple choice questions derived from the fake book.                  |
-| En.Dia           | Script        | 200      | 103.6k                | 3.4                 | Identification of talkers in partially anonymized scripts.             |
-| Zh.QA            | New Book      | 189      | 1918.1k               | 6.2                 | Question answering on a set of newly collected books.                  |
-| Code.Debug       | Code Document | 394      | 114.7k                | 4.8                 | Multiple choice, choose the function that contains errors within code. |
-| Code.Run         | Synthetic     | 400      | 75.2k                 | 1.3                 | Simulated Execution of functions from a simple collection.             |
-| Math.Calc        | Synthetic     | 50       | 43.9k                 | 43.9k               | Calculations involving super-long equations.                           |
-| Math.Find        | Synthetic     | 350      | 87.9k                 | 1.3                 | Finding special values in a lengthy list.                              |
-| Retrieve.PassKey[^1] | Synthetic     | 590      | 122.4k                | 2.0                 | Retrieving hidden keys amidst noisy context.                           |
-| Retrieve.Number  | Synthetic     | 590      | 122.4k                | 4.0                 | Locating repeated hidden numbers in extensive context.                 |
-| Retrieve.KV[^2]      | Synthetic     | 500      | 89.9k                 | 22.7                | Matching values from a key-value list given a key.                     |
+| Task Name            | Context       | # Examples | Avg Input Tokens | Avg Output Tokens | Description                                                                                 |
+| -------------------- | ------------- | ---------- | ---------------- | ----------------- | ------------------------------------------------------------------------------------------- |
+| En.Sum               | Fake Book     | 103        | 171.5k           | 1.1k              | Summarization of a fake book created with core entity substitution.                         |
+| En.QA                | Fake Book     | 351        | 192.6k           | 4.8               | Free-form question answering based on the fake book.                                        |
+| En.MC                | Fake Book     | 229        | 184.4k           | 5.3               | Multiple choice questions derived from the fake book.                                       |
+| En.Dia               | Script        | 200        | 103.6k           | 3.4               | Identification of talkers in partially anonymized scripts.                                  |
+| Zh.QA                | New Book      | 175        | 2068.6k          | 6.3               | Question answering on a set of newly collected books.                                       |
+| Code.Debug           | Code Document | 394        | 114.7k           | 4.8               | Finding which function in a code repo contains an crashing error (in multiple choice form). |
+| Code.Run             | Synthetic     | 400        | 75.2k            | 1.3               | Simulating execution of multiple simple, synthetic functions.                               |
+| Math.Calc            | Synthetic     | 50         | 43.9k            | 43.9k             | Calculations involving super-long arithmetic equations.                                     |
+| Math.Find            | Synthetic     | 350        | 87.9k            | 1.3               | Finding special integers in a lengthy list.                                                 |
+| Retrieve.PassKey[^1] | Synthetic     | 590        | 122.4k           | 2.0               | Retrieving hidden keys in a noisy long context.                                             |
+| Retrieve.Number      | Synthetic     | 590        | 122.4k           | 4.0               | Locating repeated hidden numbers in a noisy long context.                                   |
+| Retrieve.KV[^2]      | Synthetic     | 500        | 89.9k            | 22.7              | Finding the corresponding value from a dictionary and a key.                                |
+
 
 ## 评测结果
 

@@ -124,10 +124,10 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         )
     elif data_name in ["code_debug", "code_debug_qa"]:
         # Load source code
-        code_path = eg["document"]
-        code = open(
-            data_dir / f"code_debug/{code_path}", "r", encoding="utf8"
-        ).read()
+        code = eg["context"]
+        # code = open(
+        #     data_dir / f"code_debug/{code_path}", "r", encoding="utf8"
+        # ).read()
         if data_name == "code_debug_choice":
             return template.format(
                 context=code,
@@ -141,10 +141,10 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         )
     # ================= Code tasks
     elif data_name == "longdialogue_qa_eng":
-        document = eg["document"]
+        script = eg["context"]
         # print(document)
-        script_path = data_dir / "longdialogue_eng" / document
-        script = open(script_path, "r", encoding="utf8").read()
+        # script_path = data_dir / "longdialogue_eng" / document
+        # script = open(script_path, "r", encoding="utf8").read()
         prompt = templates[data_name].format(context=script)
         return prompt
     # ==================== Long book tasks
@@ -154,17 +154,17 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         "longbook_sum_eng",
         "longbook_qa_chn",
     ]:
-        book_path = eg["document"]
-        if data_name.endswith("_eng"):
-            book = open(
-                data_dir / "longbook_eng" / book_path, "r", encoding="utf8"
-            ).read()
-        elif data_name.endswith("_chn"):
-            book = open(
-                data_dir / "longbook_chn" / book_path, "r", encoding="utf8"
-            ).read()
-        else:
-            raise ValueError("Invalid data_name")
+        book = eg["context"]
+        # if data_name.endswith("_eng"):
+        #     book = open(
+        #         data_dir / "longbook_eng" / book_path, "r", encoding="utf8"
+        #     ).read()
+        # elif data_name.endswith("_chn"):
+        #     book = open(
+        #         data_dir / "longbook_chn" / book_path, "r", encoding="utf8"
+        #     ).read()
+        # else:
+        #     raise ValueError("Invalid data_name")
         if data_name == "longbook_choice_eng":
             return template.format(
                 question=eg["question"],
