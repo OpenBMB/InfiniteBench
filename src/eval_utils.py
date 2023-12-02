@@ -117,7 +117,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
     template = templates[data_name]
     # ================= Code tasks
     if data_name == "code_run":
-        find_result = re.findall(r"func_[0-9]+\([0-9]+\)", eg['input'])
+        find_result = re.findall(r"func_[0-9]+\(\-?[0-9]+\)", eg['input'])
         func_call = find_result[0]
         func = func_call.split("(")[0]
         return template.format(
