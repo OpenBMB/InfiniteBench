@@ -117,9 +117,12 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
     template = templates[data_name]
     # ================= Code tasks
     if data_name == "code_run":
+        find_result = re.findall(r"func_[0-9]+\([0-9]+\)", eg['input'])
+        func_call = find_result[0]
+        func = func_call.split("(")[0]
         return template.format(
-            func=eg["func"],
-            func_call=eg["func_call"],
+            func=func,
+            func_call=func_call,
             context=eg["context"],
         )
     elif data_name in ["code_debug", "code_debug_qa"]:
@@ -128,7 +131,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         # code = open(
         #     data_dir / f"code_debug/{code_path}", "r", encoding="utf8"
         # ).read()
-        if data_name == "code_debug_choice":
+        if data_name == "code_debug":
             return template.format(
                 context=code,
                 OPTION_A=eg["options"][0],
@@ -198,9 +201,9 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         prompt = eg['input']
         context = eg['context']
         # Find "the * number" from the prompt
-        find_result = re.findall(r"The \w+ number", prompt)
+        find_result = re.findall(r"The .+ of", prompt)
         assert find_result, f"Cannot find the target number in {prompt}"
-        target_number = find_result[0].lower()
+        target_number = find_result[0].lower()[:-3]
         # Replace the number with the answer
         prefix = f"What is {target_number} in the following list?"
         return template.format(
