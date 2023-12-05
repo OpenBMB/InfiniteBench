@@ -60,7 +60,7 @@
 
 注： 
 
-1. YaRN-Mistral-7B 和 RWKV-4-World-7B 实现代码已开源在仓库，请大家批评指正；Kimi-Chat 和 Claude 2 使用用户界面评测，GPT-4 使用 API 评测，均使用官方默认配置。
+1. YaRN-Mistral-7B 实现代码已开源在仓库，请大家批评指正；Kimi-Chat 和 Claude 2 使用用户界面评测，GPT-4 使用 API 评测，均使用官方默认配置。
 2. 
 
 > 由于 RWKV-World-4-7B 没有在 Retrieve.PassKey 上的任何正确的例子，因此我们没有考虑在其他更具有挑战性的任务上测试它。但是我们强调 RWKV-World-4-7b 似乎从来没有在 128k 长度的上下文上训练，并且没有被宣传能够处理这样长度的上下文，所以这个结果不能证明 RWKV 架构不能扩展到 128k 长度的上下文。

@@ -67,24 +67,24 @@ This will directly dump the data to `data`.
 
 We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 
-| Task Name        | GPT-4  | YaRN-Mistral-7B | Kimi-Chat | Claude 2 | RWKV-4-World-7B |
-| ---------------- | ------ | --------------- | --------- | -------- | --------------- |
-| Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | coming   | < 5%            |
-| Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 67.12%   | -               |
-| Retrieve.KV      | 89.00% | < 5%            | 34.20%    | 65.40%   | -               |
-| En.Sum           | 14.73%  | 9.09%            | 17.93%    | 14.45%   | -               |
-| En.QA            | 22.22% | 9.55%          | 16.52%    | coming   | -               |
-| En.MC            | 67.25% | 27.95%          | 72.49%    | 62.88%   | -               |
-| En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | -               |
-| Zh.QA            | 24.34% | 14.43%          | 17.34%    | coming   | -               |
-| Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | -               |
-| Code.Run         | 23.25% | < 5%            | < 5%      | < 5%     | -               |
-| Math.Calc        | < 5%   | < 5%            | < 5%      | < 5%     | -               |
-| Math.Find        | 60.00% | 17.14%          | 12.57%    | 32.29%   | -               |
+| Task Name        | GPT-4  | YaRN-Mistral-7B | Kimi-Chat | Claude 2 | 
+| ---------------- | ------ | --------------- | --------- | -------- |
+| Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | coming   | 
+| Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 67.12%   |
+| Retrieve.KV      | 89.00% | < 5%            | 34.20%    | 65.40%   |
+| En.Sum           | 14.73%  | 9.09%            | 17.93%    | 14.45%   | 
+| En.QA            | 22.22% | 9.55%          | 16.52%    | coming   |
+| En.MC            | 67.25% | 27.95%          | 72.49%    | 62.88%   | 
+| En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | 
+| Zh.QA            | 24.34% | 14.43%          | 17.34%    | coming   | 
+| Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | 
+| Code.Run         | 23.25% | < 5%            | < 5%      | < 5%     | 
+| Math.Calc        | < 5%   | < 5%            | < 5%      | < 5%     | 
+| Math.Find        | 60.00% | 17.14%          | 12.57%    | 32.29%   | 
 
 Note:
 
-1. The evaluation code for YaRN-Mistral-7B and RWKV-4-World-7B is implemented by ourselves, and please contact us or submit an issue if there are any problems.
+1. The evaluation code for YaRN-Mistral-7B is implemented by ourselves, and please contact us or submit an issue if there are any problems.
 2. Kimi-Chat, Claude 2, and GPT-4 are evaluated using the official API with default configuration.
 3. For Math.Calc, the values in the parentheses have a measurement unit of 0.01%. This is because it is easy to get a very low score on this task.
 4. The metric for task Math.Find, Math.Calc, Code.Run, Code.Debug, En.Dia, En.MC, Retrieve.KV, Retrieve.Number, and Retrieve.PassKey is accuracy; 
