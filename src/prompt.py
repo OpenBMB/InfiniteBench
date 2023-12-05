@@ -59,6 +59,3 @@ kimi_templates = {
     "longdialogue_qa_eng": "Below is a dialogue script where one random occurrence of a character name is replaced with \"$$MASK$$\", and you should try to guess who that character is.\n\nThe name that has been replaced with $$MASK$$ is likely" + "{file:{document}}",  # noqa
 }
 
-rwkv_templates = {
-    "passkey": "There is an important info hidden inside a lot of irrelevant text. Find it and memorize it. I will quiz you about the important information.\n\n{context}\n\n{input}\n\nThe pass key is",  # noqa
-}

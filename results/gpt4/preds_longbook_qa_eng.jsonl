@@ -26,7 +26,7 @@
 {"id": 25, "prediction": "The Kalis used to live in Kalifurt am Main.", "ground_truth": ["KALIFURT"]}
 {"id": 26, "prediction": "Laurel calls her letter \"Kitty.\"", "ground_truth": ["Kitty"]}
 {"id": 27, "prediction": "Mr. Jarod was annoyed with Laurel because he thought she was mocking him and laughing about how much he knew with her sister after he had confided in her about personal matters. He asked her to stop doing that and accused her of playing a dirty trick on him by discussing their private conversations with others.", "ground_truth": ["Mr. Jarod, Laurel's Maths professor was annoyed with her because she would not stop talking during hisectures as a result of which, he gave her assignments as punishment."]}
-{"id": 28, "prediction": "Bernie's profession is a dentist.", "ground_truth": ["Dentistry"]}
+{"id": 28, "prediction": "Bernie's profession is a dentist.", "ground_truth": ["Dentistry", "dentist"]}
 {"id": 29, "prediction": "Laurel experiences upsetting dreams and visions of her school friend Hanneli.", "ground_truth": ["Rocco Goosen"]}
 {"id": 30, "prediction": "Silver.", "ground_truth": ["silver"]}
 {"id": 31, "prediction": "Candace first stole \"The Grave Digger's Handbook.\"", "ground_truth": ["The Grave-Digger's handbook"]}
@@ -118,7 +118,7 @@
 {"id": 127, "prediction": "The story is set in 1819.", "ground_truth": ["1819"]}
 {"id": 128, "prediction": "Madame Bowen keeps a cat.", "ground_truth": ["a cat"]}
 {"id": 129, "prediction": "Mikaela retired in 1819.", "ground_truth": ["1813"]}
-{"id": 130, "prediction": "Leanne has four siblings.", "ground_truth": ["TWO BROTHERS AND TWO SISTERS"]}
+{"id": 130, "prediction": "Leanne has four siblings.", "ground_truth": ["TWO BROTHERS AND TWO SISTERS", "four", "4"]}
 {"id": 131, "prediction": "Aiden obtains the ax from the porter of his building.", "ground_truth": ["The caretaker"]}
 {"id": 132, "prediction": "Aiden is opposed to the marriage of his sister to Aya because he suspects Aya's intentions and views the marriage as a financial transaction, as Aya is offering to solve their financial problems in exchange for marrying Dounia.", "ground_truth": ["He thinks that she is sacrificing herself for the sake of Aya’s money"]}
 {"id": 133, "prediction": "Aya is paying for Milan and Brooklynn's trip to Petersburg.", "ground_truth": ["THEIR LUGGAGE DELIVERY COSTS ONLY"]}
