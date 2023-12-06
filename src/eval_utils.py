@@ -9,7 +9,6 @@ from prompt import (
     gpt4_templates,
     kimi_templates,
     claude2_templates,
-    rwkv_templates,
     yarn_mistral_templates,
 )
 
@@ -53,7 +52,6 @@ MODEL_TO_PROMPT_TEMPLATE = {
     "gpt4": gpt4_templates,
     "claude2": claude2_templates,
     "kimi": kimi_templates,
-    "rwkv": rwkv_templates,
     "yarn-mistral": yarn_mistral_templates,
 }
 
