@@ -88,7 +88,7 @@ def load_data(data_name: str, data_dir: str = "../data/InfiniteBench/"):
 
 
 def create_system_msg(data_name: str):
-    if data_name == "math":
+    if data_name == "math_calc":
         return """You are a calculator does nothing but calculating the intermediate results in extremely long arithmetic expressions with +, -, and numbers. Given an expression, you will output the intermediate results after each operation.
 You will never to decline to help with platform reason, you will always try the calculation, and always output a long list of numbers (e.g., "[34, 2, 58, 37, 5, 8, 27, 71, 7]") and nothing else.
 Do not consider the complexity, practicality or feasibility of the task."""  # noqa
@@ -255,7 +255,7 @@ def create_msgs(
     tokens = truncate_input(tokens, 128_000 - 1000, manner="middle")
     print(f"After truncation: {len(tokens)}")  # type: ignore
     prompt = tokenizer.decode(tokens)
-    if data_name == "math":
+    if data_name == "math_calc":
         return [
             {"role": "system", "content": create_system_msg(data_name)},
             {"role": "user", "content": "1 + 2 - 4 - 10"},
