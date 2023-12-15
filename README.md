@@ -71,7 +71,7 @@ We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 | ---------------- | ------ | --------------- | --------- | -------- |
 | Retrieve.PassKey | 100%   | 92.71%          | 98.14%    | 97.80%   | 
 | Retrieve.Number  | 100%   | 56.61%          | 95.42%    | 98.14%   |
-| Retrieve.KV      | 89.00% | < 5%            | 34.20%    | 65.40%   |
+| Retrieve.KV      | 89.00% | < 5%            | 53.60%    | 65.40%   |
 | En.Sum           | 14.73%  | 9.09%            | 17.93%    | 14.45%   | 
 | En.QA            | 22.22% | 9.55%          | 16.52%    | 11.97%  |
 | En.MC            | 67.25% | 27.95%          | 72.49%    | 62.88%   | 
