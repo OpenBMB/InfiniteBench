@@ -50,11 +50,11 @@ def build_passkey():
     #####10
     question = "What is the pass key?"
 
-    target_length = [1024 * 32, 1024 * 64, 1024 * 128, 1024 * 256]
-    num_noise = [1305, 2610, 5220, 10440]
-    step = [15, 45, 90, 180]
+    target_length = [1024 * 8, 1024 * 16, 1024 * 32, 1024 * 64, 1024 * 128, 1024 * 256]
+    num_noise = [326, 652, 1305, 2610, 5220, 10440]
+    step = [6,12 ,22, 45, 90, 180]
     repeat_time = 5
-    for i in range(2, 3):
+    for i in range(0,4):
         target_length_i = target_length[i]
         step_i = step[i]
         num_noise_i = num_noise[i]
@@ -68,7 +68,7 @@ def build_passkey():
                
                 key_t = "".join(keys)
                 ret.append({"input": question, "context": input_text.replace("{key}", key_t), "answer": key_t, "len": 26 * (num_noise_i - j)})
-        fw = jsonlines.open("passkey.jsonl", 'w')
+        fw = jsonlines.open("passkey_%d.jsonl"%target_length_i, 'w')
         fw.write_all(ret)
         fw.close()
 
@@ -114,9 +114,9 @@ def build_kv_retrieval():
 
 
 if __name__ == "__main__":
-    os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
-    os.system("python3.10 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 3000 --num-examples 500 --output-path kv-retrieval-3000_keys.jsonl.gz")
-    os.system("gzip -d kv-retrieval-3000_keys.jsonl.gz")
-    build_kv_retrieval()
+    # os.system("git clone https://github.com/nelson-liu/lost-in-the-middle.git")
+    # os.system("python3.10 -u lost-in-the-middle/scripts/make_kv_retrieval_data.py --num-keys 3000 --num-examples 500 --output-path kv-retrieval-3000_keys.jsonl.gz")
+    # os.system("gzip -d kv-retrieval-3000_keys.jsonl.gz")
+    # build_kv_retrieval()
     build_passkey()
-    build_number_string()
+    # build_number_string()

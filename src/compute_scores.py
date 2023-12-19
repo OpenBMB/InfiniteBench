@@ -322,6 +322,9 @@ def get_score_one(
     NAME_TO_SCORE_GETTER = {
         # Retrieve
         "kv_retrieval": get_score_one_kv_retrieval,
+        "kv_retrieval_prefix": get_score_one_kv_retrieval,
+        "kv_retrieval_both": get_score_one_kv_retrieval,
+
         "passkey": get_score_one_passkey,
         "number_string": get_score_one_number_string,
         # Code
