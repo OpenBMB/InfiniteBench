@@ -76,7 +76,7 @@ We evaluate SOTA proprietary and open-source LLMs, the result is as follows.
 | En.QA            | 22.22% | 9.55%          | 16.52%    | 11.97%  |
 | En.MC            | 67.25% | 27.95%          | 72.49%    | 62.88%   | 
 | En.Dia           | 8.50%  | 7.50%           | 11.50%    | 46.50%   | 
-| Zh.QA            | 25.96% | 14.43%          | 17.93%    | 10.53%   | 
+| Zh.QA            | 25.96% | 14.43%          | 17.93%    | 9.64%   | 
 | Code.Debug       | 39.59% | < 5%            | 18.02%    | < 5%     | 
 | Code.Run         | 23.25% | < 5%            | < 5%      | < 5%     | 
 | Math.Calc        | < 5%   | < 5%            | < 5%      | < 5%     | 
