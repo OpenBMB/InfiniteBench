@@ -5,12 +5,12 @@ import string
 from collections import Counter
 
 from tqdm import tqdm
-import evaluate
+# import evaluate
 
 from args import parse_args
 
 
-ROUGE_SCORER = evaluate.load("rouge")
+# ROUGE_SCORER = evaluate.load("rouge")
 
 
 
@@ -206,6 +206,9 @@ def get_score_one_code_debug(pred, label, model_name: str) -> bool:
 
 
 def get_score_one_math_find(pred, label, model_name: str) -> bool:
+    if isinstance(label, list):
+        # In math_find, there is always only one label.
+        label = label[0]
     if isinstance(label, int):
         # Find first int or float
         first_num = re.search(r"\d+\.\d+|\d+", pred)
