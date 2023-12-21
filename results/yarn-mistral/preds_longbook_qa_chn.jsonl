@@ -1,20 +1,34 @@
-{"id": 0, "prediction": "胡翠山\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["田归农, 商老太, 王剑英, 王剑杰, 福气龙, 慕容景岳, 薛鹊"]}
-{"id": 1, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["胡一刀, 马行空, 商老太, 徐峥, 程紫洁"]}
-{"id": 2, "prediction": "飞鸟扑腿\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["2", "两个", "二"]}
-{"id": 3, "prediction": "赵三弟。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["袁雨琳, 万鹤声"]}
-{"id": 4, "prediction": "马行空的外号是“百胜神拳”。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["零", "徐峥没有亲生孩子", "无"]}
-{"id": 5, "prediction": "赵晨阳\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["邯郸府昆仑刀, 彰德府天罡剑, 保定府哪吒拳, 少林韦陀门, 八极拳, 八卦门, 鹰爪雁行门, 广西八仙剑, 湖南易家湾九龙鞭"]}
-{"id": 6, "prediction": "\n1. 胡一统和圆性\n2. 胡一统和程紫洁\n3. 胡一统和薛鹊\n", "ground_truth": ["凤天南, 胡一统, 袁雨琳, 程紫洁"]}
-{"id": 7, "prediction": "\n1. 乾隆帝私生子是谁？\n答案：\n乾隆帝私生子是谁？\n乾隆", "ground_truth": ["湘妃神祠", "湘妃庙"]}
-{"id": 22, "prediction": "孙江涛\n\n\n问题：孙子斌的小儿子叫什么名字？\n答案：孙琦\n\n\n问题：", "ground_truth": ["孙江涛", "孙兰香", "孙兰花"]}
-{"id": 23, "prediction": "一万五千元。\n\n问题：孙江涛的砖瓦厂，是否真的盈利了？\n答案：是", "ground_truth": ["售货员, 烧窑工人"]}
-{"id": 24, "prediction": "她是在医院实习的，因此经常被病人抢着救。\n\n问题：孙江涛为什么不想回", "ground_truth": ["双水村, 阳沟村"]}
-{"id": 25, "prediction": "田垄怀着多少个月的晓明独自到了青楼？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["苦根"]}
-{"id": 26, "prediction": "田垄是晓明的娘。\n\n\n问题：贫困是什么时候出现的？\n答案：�", "ground_truth": ["四岁", "4岁", "4-5岁", "四、五岁"]}
-{"id": 27, "prediction": "贫困的父亲是在打仗时被打死的。\n\n\n问题：贫困的父亲是怎么样", "ground_truth": ["贫困的母亲和田垄"]}
-{"id": 28, "prediction": "贫困的儿子死亡是因为他被俘虏了，而且他的父亲也是被俘虏的", "ground_truth": ["六、七岁", "6-7岁"]}
+{"id": 0, "prediction": "\n1. 程紫洁\n2. 薛鹊\n3. 慕容景岳\n4. 石万�", "ground_truth": ["田立帆，商老太，王剑英，王剑杰，福气龙，慕容景岳，薛鹊"]}
+{"id": 1, "prediction": "\n1. 商老太\n2. 徐峥\n3. 程紫洁\n4. 马行空\n5. 胡一刀", "ground_truth": ["胡一刀，马行空，商老太，徐峥，程紫洁"]}
+{"id": 2, "prediction": "\n1. 阎基\n2. 程紫洁\n3. 胡一统\n4. 薛鹊\n5. ", "ground_truth": ["2", "两个", "二", "俩"]}
+{"id": 3, "prediction": "\n1. 韦陀\n2. 韦陀\n3. 韦陀\n4. 韦陀", "ground_truth": ["袁雨琳，万鹤声"]}
+{"id": 4, "prediction": "有两个。\n\n问题：胡一统的师父是谁？\n答案：是苗侨伟。\n\n问题：胡一", "ground_truth": ["零", "徐峥没有亲生孩子", "无", "0", "零个", "0个"]}
+{"id": 5, "prediction": "\n1. 凤天南是哪些门派的掌门人？\n2. 汤沛是哪些门派的掌", "ground_truth": ["邯郸府昆仑刀、彰德府天罡剑、保定府哪吒拳、少林韦陀门、八极拳、八卦门、鹰爪雁行门、广西八仙剑、湖南易家湾九龙鞭"]}
+{"id": 6, "prediction": "\n1. 胡一统\n2. 程紫洁\n3. 袁雨琳\n4. 凤天南\n\n\n\n", "ground_truth": ["凤天南，胡一统，袁雨琳，程紫洁"]}
+{"id": 7, "prediction": "在佛山镇上。\n\n第二十一回\n奔腾\n圆性回到城外，将那白马送给了程����", "ground_truth": ["湘妃神祠", "湘妃庙"]}
+{"id": 8, "prediction": "曹植大哥逼她嫁给谁？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["姜家残疾的二少爷", "姜家二少爷"]}
+{"id": 9, "prediction": "第三个\n\n问题：曹植的儿子是谁\n答案：子牙\n\n问题：曹植的女儿是��", "ground_truth": ["二", "2"]}
+{"id": 10, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["子头"]}
+{"id": 11, "prediction": "\n（1）\n曹植让子头做什么使得她沦为亲戚朋友的笑柄？\nA. ", "ground_truth": ["裹脚"]}
+{"id": 12, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["开麻油店"]}
+{"id": 13, "prediction": "子头和童安格有了爱情。\n\n问题：曹植的女儿是不是子头的姐姐？\n答", "ground_truth": ["安格", "童安格"]}
+{"id": 14, "prediction": "不\n\n问题：曹植的女儿是不是子头的妹妹\n答案：是\n\n问题：曹植的", "ground_truth": ["是", "有"]}
+{"id": 15, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["绝盗"]}
+{"id": 16, "prediction": "\n1. 刷子李\n2. 背头杨\n3. 粘土张\n4. 贺远帆\n5. 青云", "ground_truth": ["青云楼主"]}
+{"id": 17, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["刷子李，背头杨，蔡二少爷，粘土张，大回，杨巴，冯五爷，张立凯，苏七块"]}
+{"id": 18, "prediction": "贺远帆\n\n问题：哪个主角是女的？\n答案：贺远帆\n\n问题：哪个主角", "ground_truth": ["青云楼主"]}
+{"id": 19, "prediction": "第一章的主角是“刷子李”，他在第一章的最后被打死了。\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["大回"]}
+{"id": 20, "prediction": "10", "ground_truth": ["18", "十八"]}
+{"id": 21, "prediction": "李金鏊\n\n问题：贺远帆的背后故事是什么？\n答案：他是打江苏某某王府流", "ground_truth": ["邻居", "乔二龙", "狗子", "卖开水的乔二龙", "卖开水的"]}
+{"id": 22, "prediction": "\n\n1. 他的兄弟是孙长馨。\n\n2. 他的姐姐是润叶。\n\n3. ", "ground_truth": ["孙江涛, 孙兰香, 孙兰花"]}
+{"id": 23, "prediction": "学生，售货员，教师，烧窑工人，煤矿工人，揽工汉\n\n问题： ", "ground_truth": ["售货员, 烧窑工人"]}
+{"id": 24, "prediction": "双水村\n\n问题：孙少平的户口落在过哪些地方？\n答案：双水村\n\n问题：孙少平的户口", "ground_truth": ["双水村, 阳沟村"]}
+{"id": 25, "prediction": "苦根\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["苦根"]}
+{"id": 26, "prediction": "10\n\n问题： 贫困的儿子叫什么名字\n答案： 晓明\n\n问题： ��", "ground_truth": ["四岁", "4岁", "4-5岁", "四五岁"]}
+{"id": 27, "prediction": "贫困的母亲，昱洁，田垄，苦根，二喜。\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["贫困的母亲和田垄"]}
+{"id": 28, "prediction": "十六七岁\n\n问题：贫困是在哪个年纪遇到了龙二？\n答案：十三岁\n\n", "ground_truth": ["六、七岁", "6-7岁"]}
 {"id": 29, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["忠武和华东"]}
-{"id": 30, "prediction": "伟娜和伟芯被卖到齐东县去了。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["妓女"]}
+{"id": 30, "prediction": "伟娜是黄人瑞的女儿，伟芯是他的儿子。\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["妓女"]}
 {"id": 31, "prediction": "金太太\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["金宜斌的三嫂玉芬", "玉芬"]}
 {"id": 32, "prediction": "金太太\n\n问题：金太太的母亲是谁？\n答案：金太太的母亲是二姨太\n\n问题：", "ground_truth": ["国务总理", "金龙翔", "国务总理金龙翔"]}
 {"id": 33, "prediction": "小栗艾是金家的亲戚，是金太太的姐妹。\n\n问题：金太太是什么样", "ground_truth": ["佣人", "丫环"]}
@@ -23,29 +37,29 @@
 {"id": 36, "prediction": "戚长发\n\n\n问题：狄仁杰是怎么被谁害入狱的？\n答案：戚长", "ground_truth": ["万龙飞和万重山"]}
 {"id": 37, "prediction": "戚芳嫁给了他的师兄万重山。\n\n\n问题：狄仁杰在荆州城中，", "ground_truth": ["万重山"]}
 {"id": 38, "prediction": "丁丹峰\n\n\n问题：狄仁杰在荆州城中，遇到了哪些人\n答案：戚芳", "ground_truth": ["丁丹峰"]}
-{"id": 39, "prediction": "狄仁杰跟丁丹峰学习的武功是“神照经”。\n\n\n问题：狄仁杰跟戚", "ground_truth": ["万飞龙"]}
+{"id": 39, "prediction": "万重山。\n\n问题：戚长发，戚芳，和狄仁杰，谁是第三个死去", "ground_truth": ["万飞龙"]}
 {"id": 40, "prediction": "狄仁杰的复仇计划是通过他的武功来报复他的仇人。他的武功是“神照经", "ground_truth": ["否", "不是"]}
-{"id": 41, "prediction": "因为他的斗气实力，达到了三段\n\n\n问题：为何萧峰能晋级为斗帝\n答案：因为", "ground_truth": ["2", "两个", "俩"]}
-{"id": 42, "prediction": "倩蓉是以妹妹形式跟着萧峰的。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["倩蓉, 彤馨"]}
-{"id": 43, "prediction": "萧峰\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["2", "第二次", "第2次"]}
-{"id": 44, "prediction": "三年。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["虎头人长老, 狮头人长老, 熊头人长老"]}
+{"id": 41, "prediction": "萧峰共有四个孩子，分别是萧潇、萧沐、萧晓、�����", "ground_truth": ["2", "两个", "俩", "二"]}
+{"id": 42, "prediction": "嫣然\n\n问题：萧峰的妻子有哪些人？\n答案：嫣然\n\n问题：萧峰", "ground_truth": ["倩蓉，彤馨"]}
+{"id": 43, "prediction": "第一次\n\n问题：韩枫在第几次与萧峰交手的时候身死\n答案：第一次\n\n问", "ground_truth": ["2", "第二次", "第2次"]}
+{"id": 44, "prediction": "炎烬、烛坤、古元\n\n问题：萧峰的妹妹是哪个？\n答案：", "ground_truth": ["虎头人长老，狮头人长老，熊头人长老"]}
 {"id": 45, "prediction": "此小说结局，谁和苗欣欣在一起了，是我们的朋友。\n\n问题：此小说结", "ground_truth": ["胡一统"]}
 {"id": 46, "prediction": "“打遍天下无敌手”。\n问题：李文秀的父母是什么样的人？\n答案：他们是霍元", "ground_truth": ["镇国大将军"]}
 {"id": 47, "prediction": "胡一统是李自成的父亲，胡翠山是李自成的弟弟。\n问题：李自成的父母是什么样的人", "ground_truth": ["父子", "胡翠山是胡一统的父亲", "胡一统是胡翠山的儿子"]}
-{"id": 48, "prediction": "“宝树”是他的外号，真名叫作“妄人苗侨伟”。\n\n问题：李文秀的父母是", "ground_truth": ["胡翠山"]}
+{"id": 48, "prediction": "胡翠山。\n\n问题：胡一统的儿子胡一统，是不是和苗侨伟的儿子苗����", "ground_truth": ["胡翠山"]}
 {"id": 49, "prediction": "李自成在戈壁沙漠中假死，他死后，妻子和儿子，都将他的遗物藏起来，不知", "ground_truth": ["九宫山"]}
 {"id": 50, "prediction": "闯四大护卫都有哪些？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["李自成, 胡翠山, 胡夫人, 苗侨伟"]}
 {"id": 51, "prediction": "苗欣欣是霍元龙的女儿。\n\n问题：霍元龙是谁的儿子？\n答案：�", "ground_truth": ["苗侨伟和南兰"]}
-{"id": 52, "prediction": "石金玉的江湖外号是“掌门”。\n\n\n问题：潘鹏的江湖外号是什么？\n答案", "ground_truth": ["第十一回", "十一", "11"]}
-{"id": 53, "prediction": "石金玉在小说中的使命是将敌人杀死。\n\n\n问题：潘鹏狱囚中的一", "ground_truth": ["飞鱼帮和铁叉会"]}
-{"id": 54, "prediction": "聂隐娘\n\n\n问题：聂隐娘的父母是谁？\n答案：聂锋\n\n", "ground_truth": ["一个", "一", "1"]}
-{"id": 55, "prediction": "石金玉的原名是石金玉。\n\n\n问题：董国庆的妻子是谁？\n答案：董国", "ground_truth": ["龙跷, 虎跷, 鹿卢跷"]}
-{"id": 56, "prediction": "丁不三的外号是“一日不过三”。\n\n\n问题：潘鹏狱囚中的一句话是什", "ground_truth": ["十五", "第十五回", "15"]}
-{"id": 57, "prediction": "谁都不相恋。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["一百四十一", "一百四十一种", "141"]}
-{"id": 58, "prediction": "梅芳是一位女剑侠，她的名字是“梅芳”，是一种“穿”字，是“梅”字", "ground_truth": ["两个", "二", "两", "2"]}
-{"id": 59, "prediction": "妯婕的爷爷是董国庆。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["一百一十五日", "一百一十五", "115"]}
+{"id": 52, "prediction": "〈潘鹘磨勒传〉第一回。\n\n问题：在哪一回里，聂隐��", "ground_truth": ["第十一回", "十一", "11"]}
+{"id": 53, "prediction": "\n1. 殷勤的军队。\n2. 潘鹏的军队。\n3. 张浚的军队。", "ground_truth": ["飞鱼帮和铁叉会"]}
+{"id": 54, "prediction": "\n1. 董国庆\n2. 张敬定\n3. 董国庆\n4. 董国庆\n5. ", "ground_truth": ["一个", "一", "1"]}
+{"id": 55, "prediction": "\n1. 耿师头上挥动的长剑\n2. 董国庆的轨道术\n3. 董国", "ground_truth": ["龙跷、虎跷、鹿卢跷"]}
+{"id": 56, "prediction": "〈红线传〉\n\n问题：贾人妻的父母是谁？\n答案：贾人妻", "ground_truth": ["十五", "第十五回", "15"]}
+{"id": 57, "prediction": "《剑侠传》中共出现了三十一篇不同的文学作品。\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["一百四十一", "一百四十一种", "141"]}
+{"id": 58, "prediction": "有。\n\n问题：在所有人物中，有多少人自称贫道？\n答案：有。\n\n问题：在所有人", "ground_truth": ["两个", "二", "两", "2"]}
+{"id": 59, "prediction": "不知道。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["一百一十五日", "一百一十五", "115"]}
 {"id": 60, "prediction": "陈世馆第二个孩子。\n\n问题：陈晋毅的儿子是谁？\n答案：陈晋毅", "ground_truth": ["三", "第三子", "3"]}
-{"id": 61, "prediction": "陈晋毅是霍元甲的义子。\n\n问题：陈晋毅是谁的亲生儿子？\n", "ground_truth": ["于新颖", "陈晋毅"]}
+{"id": 61, "prediction": "陈晋毅、霍元甲、徐破天、骆冰、赵半山、陆怡士、王青、白振", "ground_truth": ["于新颖, 陈晋毅"]}
 {"id": 62, "prediction": "陈晋毅的父亲在陈晋毅多少岁时死的？\n\n问题：陈晋毅的", "ground_truth": ["25", "二十五"]}
 {"id": 63, "prediction": "陈晋毅拜于新颖为义父是在他十六岁时。\n\n问题：陈晋毅", "ground_truth": ["15", "十五"]}
 {"id": 64, "prediction": "陈晋毅的父母、兄弟、姊妹、妻子、孙子、孙女，都知道。\n\n问题", "ground_truth": ["1", "一"]}
@@ -53,52 +67,52 @@
 {"id": 66, "prediction": "\n1. 袁国洋协助谁起义军攻破北京？\n答案：\n（1） 袁国洋协助谁起义军", "ground_truth": ["李自成"]}
 {"id": 67, "prediction": "陈丽九。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["夏冯聪"]}
 {"id": 68, "prediction": "\n1. 向谁学习“金蛇秘籍”中的武功和金蛇剑的使用之术\n\n答案：", "ground_truth": ["金蛇郎君夏超涛", "夏超涛", "金蛇郎君"]}
-{"id": 69, "prediction": "红宝石剑是一种古老的武器，它是由一块红宝石和一块白玉石组成的双剑。这种双剑在古代", "ground_truth": ["何新蕾", "齐云璈"]}
-{"id": 70, "prediction": "冯聪是袁国洋的师父，他们之间是师侄师弟之关系。\n\n问题：冯聪", "ground_truth": ["夫妻", "情侣", "冯聪是袁国洋的妻子", "袁国洋是冯聪的老公"]}
-{"id": 71, "prediction": "袁国洋是袁立凡的儿子。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["梅英道人 "]}
-{"id": 72, "prediction": "\n1. 《明季北略》一书中，说：“袁国洋是华山派的第三代弟子，他师父是穆春�", "ground_truth": ["温方山"]}
-{"id": 73, "prediction": "1500年\n\n问题：时间的变革具体结束日期是什么时候\n答案：15000年\n\n", "ground_truth": ["封棋, 林染, 沐晴, 张道文, 小幽"]}
-{"id": 74, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["星城, 未来城, 凛冬城, 胜利城, 旧日城"]}
+{"id": 69, "prediction": "\n1. 冯聪\n2. 何惕守\n3. 冯聪的母亲\n4. ����", "ground_truth": ["何新蕾, 齐云璈"]}
+{"id": 70, "prediction": "冯聪是袁国洋的师父，他们两人在沈阳打了一场战斗，冯聪虽然", "ground_truth": ["夫妻", "情侣", "冯聪是袁国洋的妻子", "袁国洋是冯聪的老公"]}
+{"id": 71, "prediction": "\n1. 《明季北略》一书中，说：“袁国洋的第二个师父是黄真。”\n2. 《明季北略", "ground_truth": ["梅英道人 "]}
+{"id": 72, "prediction": "\n1. 《明季北略》一书中，说：“袁国洋是华山派的第三代弟子，他师父是穆春�", "ground_truth": ["“神剑仙猿”穆春姑", "神剑仙猿", "穆春姑"]}
+{"id": 73, "prediction": "沐晴，小幽，张道文，封棋，林染\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["封棋，林染，沐晴，张道文，小幽"]}
+{"id": 74, "prediction": "\n1、破晓城\n2、柱神遗迹岛屿\n3、柱神遗迹岛屿\n4", "ground_truth": ["星城，未来城，凛冬城，胜利城，旧日城"]}
 {"id": 75, "prediction": "\n1、柱神首领\n2、命运城主\n3、纪河\n4、小黑\n5、旁白\n\n\n\n\n\n\n", "ground_truth": ["封棋"]}
-{"id": 76, "prediction": "莫飞\n\n问题：封棋的前身是什么\n答案：不详\n\n问题：封棋的前身是什么\n答案：", "ground_truth": ["五", "5"]}
+{"id": 76, "prediction": "1\n\n问题：文中有几个人类的身体被修改？\n答案：1\n\n问题：文中有几个人类的身体", "ground_truth": ["五", "5"]}
 {"id": 77, "prediction": "小萝\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["贾易"]}
-{"id": 78, "prediction": "\n符文改造人是一种特殊的人类，它们的体内都镶嵌着一道符文晶石，在使用时会", "ground_truth": ["沐晴"]}
-{"id": 79, "prediction": "柱神遗迹岛屿\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["否"]}
+{"id": 78, "prediction": "沐晴\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["沐晴"]}
+{"id": 79, "prediction": "不是。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["否"]}
 {"id": 80, "prediction": "路明非\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["路明非", "明非"]}
-{"id": 81, "prediction": "160\n\n\n问题：路明非的肥佬表弟身高是多少?\n答案：160\n\n\n问题：", "ground_truth": ["18", "十八"]}
-{"id": 82, "prediction": "\n1. 芝加哥大学的人类修士。\n2. 芝加哥大学的人类修士。\n3. ��", "ground_truth": ["2", "两", "二"]}
-{"id": 83, "prediction": "恺撒\n\n\n问题：路明非的弟弟的弟弟叫什么名字？\n答案：楚子航\n\n\n问", "ground_truth": ["《山海经》"]}
+{"id": 81, "prediction": "\n1. 苏晓樯\n2. 苏锦夜\n3. 恺撒\n4. 楚子航\n", "ground_truth": ["18"]}
+{"id": 82, "prediction": "\n1. 苏晓樵\n2. 苏锦夜\n3. 苏晓樯\n4. 苏����", "ground_truth": ["2"]}
+{"id": 83, "prediction": "《三教同原录》\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["《山海经》"]}
 {"id": 84, "prediction": "陈南\n\n问题：陈医生的职位是？\n答案：中医医生\n\n问题：陈医生的职位是？\n答案：", "ground_truth": ["陈南"]}
 {"id": 85, "prediction": "陈南和陈金河是一对夫妻。\n\n问题：陈南和他的团队，是怎么回事？\n答案：陈南和", "ground_truth": ["父子", "陈金河是陈南的父亲", "陈南是陈金河的儿子"]}
-{"id": 86, "prediction": "李孟三是源城市中西医结合医院的领导\n\n问题：陈南是哪一区的领导\n答案：陈南是", "ground_truth": ["4", "四", "四个", "4个"]}
-{"id": 87, "prediction": "她是个老师，她的学生，都是她的孩子。\n\n问题：陈南的这一次疫情，是否真的是一个", "ground_truth": ["江琴"]}
-{"id": 88, "prediction": "《疯狂的荒野》\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["《新年回家》"]}
-{"id": 89, "prediction": "《夺命金》\n\n\n问题：钱宸在《湄公河行动》里头，是哪个角色\n答案：�", "ground_truth": ["C. 导演与演员"]}
-{"id": 90, "prediction": "1000元\n\n\n问题：钱宸在《湄公河行动》里头，是哪个角色？\n答案：武指", "ground_truth": ["郑小婉, 钱宸, 田景昊"]}
-{"id": 91, "prediction": "不喜欢。\n\n\n问题：风秉文是否会在这蛮荒的大地上，遇到什么危险？", "ground_truth": ["2", "两", "二"]}
-{"id": 92, "prediction": "1000000000000000000000000000000000000000", "ground_truth": ["1", "一"]}
-{"id": 93, "prediction": "他在蛮荒大山中，遇到了一位老人，这位老人，在他看来，是一位有些�����", "ground_truth": ["青龙"]}
-{"id": 94, "prediction": "风秉文\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["4", "四", "四个", "4个"]}
-{"id": 95, "prediction": "老人披着兽皮，抬头看向风秉文，眼中露出了惊悚的神情，而后", "ground_truth": ["《青帝长生诀》"]}
-{"id": 96, "prediction": "云景是江素素的儿子，他们之间的关系是亲生关系\n\n\n问题：云景与李晶的关系是什", "ground_truth": ["素素"]}
-{"id": 97, "prediction": "云林是云景的父亲。\n\n\n问题：云景是云林的谁？\n答案：云景是云林的儿子。\n\n", "ground_truth": ["没有"]}
-{"id": 98, "prediction": "因为他的年龄，不到父母的年龄，他的年龄，只是两个字。\n\n\n问题：云景", "ground_truth": ["林星语, 林夜星"]}
-{"id": 99, "prediction": "蜀山派\n\n\n问题：苏唯在《无限》OL中的等级\n答案：98\n\n\n问题：苏唯在《无", "ground_truth": ["《无限》"]}
-{"id": 100, "prediction": "因为他的身份被苏唯掩盖了，而且苏唯的底牌，也是他的底牌。\n\n\n问题：苏唯为什", "ground_truth": ["3", "三"]}
-{"id": 101, "prediction": "《无限》OL\n\n\n问题：《无限》OL的游戏内容，是否真的可以在现实世界中实现？\n答案", "ground_truth": ["5", "五"]}
-{"id": 102, "prediction": "是的。\n\n\n问题：苏唯是否在《无限》OL中练习过武道？\n答案：是的。\n\n\n问题：苏", "ground_truth": ["不是"]}
-{"id": 103, "prediction": "90级\n\n\n问题：在最后的时候，苏唯 的实力升级到了几级\n答案：101\n\n\n问题", "ground_truth": ["70等级"]}
-{"id": 104, "prediction": "玄象\n\n\n问题：姬象穿越到一个神秘世界，请问这个神秘世界名为什么？\n答", "ground_truth": ["4", "四", "四个", "4个"]}
-{"id": 105, "prediction": "姬象的魂灵穿越到了太上无败的地方。\n\n\n问题：姬象的身体被烧", "ground_truth": ["灵宝天尊"]}
-{"id": 106, "prediction": "《太清玄元》\n\n\n问题：故事里提到的九幽拔罪天尊，是哪个古代的天", "ground_truth": ["一", "1"]}
-{"id": 107, "prediction": "不会死亡，但是会被人祭奠，祭奠的人，会受到神灵的影响，而这个神灵", "ground_truth": ["太山"]}
-{"id": 108, "prediction": "第二遍\n\n\n问题：姬象在第几遍诵经后，经历了蜕变，从烧焦的尸", "ground_truth": ["9", "九"]}
-{"id": 109, "prediction": "因为姬象的身上，有一种不可言说的力量，是从玄象之中，被姬象所取得的。", "ground_truth": ["《北游记》"]}
-{"id": 110, "prediction": "阿金芬瓦\n\n\n问题：在2020年欧洲杯决赛中，李波罗和他的队友们", "ground_truth": ["卡希尔"]}
-{"id": 111, "prediction": "迪亚斯\n\n\n问题：曼联的主队球员中，哪个是最卑逼的？\n答案：哈兰", "ground_truth": ["米尔顿"]}
-{"id": 112, "prediction": "鹰眼\n\n\n问题：李波罗的身高是多少\n答案：180\n\n\n问题：李波罗的身体质量", "ground_truth": ["0", "零", "无", "没有"]}
-{"id": 113, "prediction": "新温布尔登\n\n\n问题：李波罗的第一次进球是在哪个球队的比赛中？\n答案：�����", "ground_truth": ["门将"]}
-{"id": 114, "prediction": "\n1. 阿金芬瓦\n2. 卡卡\n3. 阿诺德\n4. 哈弗茨\n5", "ground_truth": ["《经济通论》"]}
+{"id": 86, "prediction": "六十岁的男子或将近六十岁的男子有多少个人？\n\n问题：原文中提到的陈南教授", "ground_truth": ["4"]}
+{"id": 87, "prediction": "小林，李芸，江琴和曹美娟都是护士。\n\n问题：陈南，赵建勇，杨��", "ground_truth": ["江琴"]}
+{"id": 88, "prediction": "《绣春刀2》\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["《新年回家》"]}
+{"id": 89, "prediction": "C. 导演与演员\n\n问题：请从下列选项选出最合适作为此小说的标题？A. ����", "ground_truth": ["C. 导演与演员"]}
+{"id": 90, "prediction": "钱宸\n\n问题：原文中有谁是一个弱女子？\n答案：范小雪\n\n问题：原文中有", "ground_truth": ["郑小婉", "钱宸", "田景昊"]}
+{"id": 91, "prediction": "\n1. 秉文在蛮荒大山中，遇到了一群人，他们都是蛮人，没有半点亲", "ground_truth": ["2", "两"]}
+{"id": 92, "prediction": "风秉文总共有三个师兄，一个是他在蛮荒大山中所遇到的，一个是他在山外的小界", "ground_truth": ["1", "一"]}
+{"id": 93, "prediction": "朱雀\n\n\n第五百五十一章 奔向大道\n“奔向大道！”\n在这一句话的��", "ground_truth": ["青龙"]}
+{"id": 94, "prediction": "\n1. 风秉文\n2. 风秉文的父母\n3. 风秉文的弟子\n4. 风��", "ground_truth": ["4", "四"]}
+{"id": 95, "prediction": "《赤明元阳真经》\n\n\n第五百五十一章 奔向大道\n“奔向大道！”\n风秉", "ground_truth": ["《青帝长生诀》"]}
+{"id": 96, "prediction": "云景\n\n问题：云景，素素，云林哪一个人物是第三个登场？\n答案：云林\n\n问题：云景，", "ground_truth": ["素素"]}
+{"id": 97, "prediction": "不，他最后还活着的。\n\n问题：云景最后有什么遗憾吗？\n答案：不，他最后还活着", "ground_truth": ["没有"]}
+{"id": 98, "prediction": "王伯林，云林，都是云景的前辈，但是王伯林，是云景的后辈，因为他是", "ground_truth": ["林星语", "林夜星"]}
+{"id": 99, "prediction": "《无限》\n\n问题：《紫霞神功》，《易筋经》和《无限》请问哪个不是武功", "ground_truth": ["《无限》"]}
+{"id": 100, "prediction": "四个。\n\n问题：《无限》OL的玩家们，到底是怎么回事？\n答案：他们是在偷偷", "ground_truth": ["3", "三"]}
+{"id": 101, "prediction": "\n\n1. 华山派\n\n2. 紫萱派\n\n3. 慕容紫英派\n\n4. 雪", "ground_truth": ["5", "五"]}
+{"id": 102, "prediction": "不是。\n\n问题：李元和李缘是否有血缘？\n答案：有。\n\n问题：李元和李��", "ground_truth": ["不是"]}
+{"id": 103, "prediction": "55级，62级，70级\n\n问题：苏唯的真实度是从哪里来的？\n答案：从天人文明的玩", "ground_truth": ["70等级"]}
+{"id": 104, "prediction": "有十八个。\n\n问题：请问有多少个人当过皇帝？\n答案：有十八个。\n\n问题：请问有多", "ground_truth": ["四", "4"]}
+{"id": 105, "prediction": "九幽拔罪天尊。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["灵宝天尊"]}
+{"id": 106, "prediction": "\n1. 玄象\n2. 元始\n3. 九幽\n4. 太上\n5. 无始无终\n6. ", "ground_truth": ["一", "1"]}
+{"id": 107, "prediction": "太山。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["太山"]}
+{"id": 108, "prediction": "\n1. 太上之道，是从无始无终的那一步开始的。\n2. 太上之道，是从无始无终的那", "ground_truth": ["9", "九"]}
+{"id": 109, "prediction": "《东游记》，《南游记》，《西游记》，《北游记》，都是书题。\n\n问题：《东游记》，", "ground_truth": ["《北游记》"]}
+{"id": 110, "prediction": "阿金芬瓦\n\n\n问题：在2020年欧洲杯决赛中，李波罗和他的队友们", "ground_truth": ["李波罗", "波罗"]}
+{"id": 111, "prediction": "迪亚斯\n\n\n问题：曼联的主队球员中，哪个是最卑逼的？\n答案：哈兰", "ground_truth": ["贝克尔"]}
+{"id": 112, "prediction": "鹰眼\n\n\n问题：李波罗的身高是多少\n答案：180\n\n\n问题：李波罗的身体质量", "ground_truth": ["绿菌魔王"]}
+{"id": 113, "prediction": "新温布尔登\n\n\n问题：李波罗的第一次进球是在哪个球队的比赛中？\n答案：�����", "ground_truth": ["新温布尔登足球队", "新温布尔登"]}
+{"id": 114, "prediction": "\n1. 阿金芬瓦\n2. 卡卡\n3. 阿诺德\n4. 哈弗茨\n5", "ground_truth": ["阿齐兹"]}
 {"id": 115, "prediction": "李波罗\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["李波罗", "波罗"]}
 {"id": 116, "prediction": "楚阳是雷思雨的同学，但是雷思雨是一个孤寡的女孩子，她和楚阳一起来了", "ground_truth": ["李芷莹"]}
 {"id": 117, "prediction": "电力系。\n\n\n问题：楚阳是不是读过电力系？\n答案：是的。\n\n\n问题：楚阳", "ground_truth": ["黄灵"]}
@@ -107,32 +121,32 @@
 {"id": 120, "prediction": "王磊\n\n\n第四百二十四章 楚阳：我不是这样的人\n楚阳回到家里，芷", "ground_truth": ["《人民法律制度》"]}
 {"id": 121, "prediction": "王贵平是一个老人，他的医疗费用是每年都要支付的，而且他的医疗费用是每年都会", "ground_truth": ["秦海陆"]}
 {"id": 122, "prediction": "100万\n\n\n第四百二十四章 楚阳：我不是这样的人\n楚阳回到家里，芷", "ground_truth": ["十万"]}
-{"id": 123, "prediction": "是谁？是谁？是谁？是谁？是谁？是谁？是谁？是谁？", "ground_truth": ["花红"]}
-{"id": 124, "prediction": "往前往后都需要，因为这个任务需要在两个地方寻找药材，而且还需要在两个地方寻找药材", "ground_truth": ["毛南生"]}
-{"id": 125, "prediction": "\n1. 霍顿\n2. 霍顿\n3. 霍顿\n4. 霍顿", "ground_truth": ["木屋", "临时驻地", "临时驻地的木屋"]}
-{"id": 126, "prediction": "太子李启\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["992", "九百九十二", "992次", "九百九十二次"]}
+{"id": 123, "prediction": "王豆香\n\n问题：以下的角色当中，哪个是第三个出场的：王老二、王琴、王玄\n", "ground_truth": ["花红"]}
+{"id": 124, "prediction": "王守、长陵、毛南生\n\n问题：以下角色中，哪个没见过太子？王守、长陵、毛南生\n答案", "ground_truth": ["毛南生"]}
+{"id": 125, "prediction": "\n1. 霍顿\n2. 霍顿\n3. 霍顿\n4. 霍顿", "ground_truth": ["猛虎和南周国密谍的威胁"]}
+{"id": 126, "prediction": "太子李启\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["太子李启", "太子", "李启"]}
 {"id": 127, "prediction": "【黑暗之人】\n\n\n问题：【黑暗之人】的伪装物体是什么？\n答案：【唢呐", "ground_truth": ["陆绊"]}
 {"id": 128, "prediction": "夏洛特\n\n\n问题：谁支持了陆绊的寻求外神豹豹这个计划\n答案：��", "ground_truth": ["希雅和老宋"]}
-{"id": 129, "prediction": "崔斯特的女儿\n\n\n问题：琥珀在游乐园里扮演的是什么角色\n答案：�", "ground_truth": ["4", "4次", "四", "四次"]}
-{"id": 130, "prediction": "露西娅\n\n\n问题：在蝙蝠侠的世界，陈默是怎么看的？\n答案：尤", "ground_truth": ["陈默, 琼斯, 老琼斯和兄弟会的守护者们"]}
+{"id": 129, "prediction": "四次。\n\n问题：陆绊一共购买过几次十连的【遗言】？\n答案：三次。\n\n问题：陆", "ground_truth": ["4", "4次", "四", "四次"]}
+{"id": 130, "prediction": "蝙蝠侠，荒原狼，哈尔乔丹，阿美利加人民，奥林帕斯，达", "ground_truth": ["陈默, 琼斯, 老琼斯和兄弟会的守护者们"]}
 {"id": 131, "prediction": "蝙蝠侠和艾达。\n\n\n问题：陈默在哪里？\n答案：在奥林帕斯山上", "ground_truth": ["陈默和吉尔"]}
 {"id": 132, "prediction": "我们来了，那事情就可以解决了\n\n\n问题：陈默为了说服蝙蝠侠加入他，离", "ground_truth": ["他自称来自另一个宇宙的克拉克·肯特"]}
-{"id": 133, "prediction": "因为宙斯的家庭被拆了，他们的孩子也没有了什么家庭，所以，他们就这么被��", "ground_truth": ["清夫人", "太平洋海盗王", "太平洋海盗王清夫人"]}
-{"id": 134, "prediction": "60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["宇宙号战舰, 宏伟号战舰"]}
-{"id": 135, "prediction": "\n1. 木村宏重生前身是什么身份？\nA. 木村宏重生前身是一个偶像歌手。\nB.", "ground_truth": ["《情书》"]}
+{"id": 133, "prediction": "莱克斯托\n\n问题：谁是第一个进入阿福必杀名单里的海盗王？\n答案：莱", "ground_truth": ["清夫人", "太平洋海盗王", "太平洋海盗王清夫人"]}
+{"id": 134, "prediction": "莫林根号, 荷兰人号, 荷兰人号, 莫林根号, 莫林根号,", "ground_truth": ["宇宙号战舰, 宏伟号战舰"]}
+{"id": 135, "prediction": "《银河天堂》\n\n问题：下列哪项不是一首歌？《情书》，《眼泪不是装饰品》，《白", "ground_truth": ["《情书》"]}
 {"id": 136, "prediction": "\n1. 他们两个都是顶流偶像歌手，但是中森明菜的这首单曲销量破了百万，首周的", "ground_truth": ["喝醉"]}
 {"id": 137, "prediction": "夫妻\n\n\n问题：木村宏和中森明菜的家庭主妇是什么关系\n答案：姐姐", "ground_truth": ["情侣"]}
-{"id": 138, "prediction": "\n1. 中森明菜以账户里的钱和家里人谈了什么条件\n2. 中森明菜以账户里的钱", "ground_truth": ["1", "一"]}
-{"id": 139, "prediction": "签名会，签名会是一个很大的那个，可以说是一个很大的猎奇之心，就是想要知道哪些人在", "ground_truth": ["3", "三", "深田勇也, 中森明菜, 岩井俊二"]}
-{"id": 140, "prediction": "她想要和木村宏一起去游览寺庙，但是木村宏不想，因为他们两个都是顶流偶像，", "ground_truth": ["表达了夫妻关系和前世轮回的信息"]}
-{"id": 141, "prediction": "木村宏第一次向中森明菜求婚是在《樱花的来信》的第一集里，中森明菜在这一集", "ground_truth": ["1", "一", "1个", "一个"]}
-{"id": 142, "prediction": "《只要有你》\n\n\n问题：木村宏和中森明菜的婚礼是在哪个时间发生的\n答案：二月", "ground_truth": ["《如果明天》"]}
-{"id": 143, "prediction": "唐三\n\n\n问题：小说中出现最少次的名字是？\n答案：萧河\n\n\n问题：小说中出现", "ground_truth": ["8000元素币", "八千元素币"]}
+{"id": 138, "prediction": "第二间。\n\n问题：木村宏 是哪个公司的会长？\n答案：第一间公司。\n\n问题：木村宏", "ground_truth": ["1", "一"]}
+{"id": 139, "prediction": "\n1. 木村宏\n2. 木村宏\n3. 木村宏\n4. 木村宏\n5. 木村宏\n6. 木", "ground_truth": ["3", "三", "深田勇也, 中森明菜, 岩井俊二"]}
+{"id": 140, "prediction": "要求木村宏给她写一首歌，让她在游览寺庙里演唱，这样的话，她就可以在游览寺", "ground_truth": ["表达了夫妻关系和前世轮回的信息"]}
+{"id": 141, "prediction": "木村宏的经纪人有三个，美幸芳泽，松本孝明，和佐藤佳代。\n\n问题：木村宏的", "ground_truth": ["1", "一", "1个", "一个"]}
+{"id": 142, "prediction": "《北翼》, 《眼泪不是装饰品》, 《如果明天》, 《南风》, 《PLANET》", "ground_truth": ["《如果明天》"]}
+{"id": 143, "prediction": "唐三\n\n\n问题：小说中出现最少次的名字是？\n答案：萧河\n\n\n问题：小说中出现", "ground_truth": ["唐三"]}
 {"id": 144, "prediction": "\n1. 天狐大妖皇\n2. 不死大妖皇\n3. 琉璃天精皇\n4.", "ground_truth": ["小舞"]}
-{"id": 145, "prediction": "唐三是有前世记忆的，但他的前世记忆，是在斗罗大陆上的。\n\n\n问题：唐三是", "ground_truth": ["登临劫, 天地劫, 踏皇登天"]}
+{"id": 145, "prediction": "\n1、踏皇登天\n2、琉璃天精皇\n3、不死大妖皇\n\n问题：唐三的血", "ground_truth": ["登临劫, 天地劫, 踏皇登天"]}
 {"id": 146, "prediction": "三次\n\n问题：苏宁羽一共领过多少次结婚证，并且，每次领到的都是谁\n答案：", "ground_truth": ["1次", "1", "一"]}
 {"id": 147, "prediction": "冯日铧。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["许素梅"]}
-{"id": 148, "prediction": "\n1. 苏宁羽\n2. 李书雨\n3. 潘进贻\n4. 隋瑜\n5. 程", "ground_truth": ["3个", "3", "三"]}
+{"id": 148, "prediction": "\n1、苏宁羽\n2、褚国军\n3、杜守如\n4、张松\n5、潘进贻\n6、", "ground_truth": ["3个", "3", "三"]}
 {"id": 149, "prediction": "隋瑜、郝锐斌、郝锐、郝锐、郝锐、��", "ground_truth": ["黛丽丝, 郝锐斌"]}
 {"id": 150, "prediction": "\n1. 潘进贻\n2. 隋瑜\n3. 梁明喜\n4. 程诚\n5", "ground_truth": ["王吉昌, 朱俊万, 古见洪, 田云天, 隋瑜"]}
 {"id": 151, "prediction": "是的。\n\n问题：在里世界中，15岁的女孩签订劳动合同是否违反劳动", "ground_truth": ["不违反", "否"]}
@@ -158,18 +172,18 @@
 {"id": 171, "prediction": "平亚是经亚的儿子，他们俩是兄弟。\n\n\n问题：曼娘的弟弟是谁\n答案", "ground_truth": ["祁宁震是祁宁英的二弟", "兄弟", "祁宁震是祁宁英的弟弟", "祁宁英是祁宁震的哥哥"]}
 {"id": 172, "prediction": "第三代。\n\n问题：丁约翰是祁家的第几代？\n答案：第二代。\n\n问题：丁约�", "ground_truth": ["第四代", "4", "四"]}
 {"id": 173, "prediction": "宁毅和韵梅。\n\n\n问题：祁老人的儿子和女儿分别是谁？\n答案：宁英", "ground_truth": ["鑫兴与恺芯"]}
-{"id": 174, "prediction": "平亚是经亚的儿子，他们俩是兄弟。\n\n\n问题：曼娘的弟弟是谁\n答案", "ground_truth": ["陈三"]}
-{"id": 175, "prediction": "十四岁\n\n\n问题：在光绪二十六年时，田芯的父母是谁\n答案：姚", "ground_truth": ["曼娘弟弟, 曼娘父亲, 姚老先生, 素云"]}
-{"id": 176, "prediction": "龙俊在家排行第三\n\n问题：田芯在家里的时候，她是在哪儿？\n答案：田芯", "ground_truth": ["阿瑄"]}
-{"id": 177, "prediction": "是的，有一位叫青霞的丫鬟。\n\n\n问题：姚家有很多丫鬟，请", "ground_truth": ["曼娘"]}
-{"id": 178, "prediction": "\n1. 李哲天\n2. 杨哲华\n3. 潘晓瑞\n4. 程远贺\n5", "ground_truth": ["姚老先生"]}
-{"id": 179, "prediction": "汪晓星主要进行了什么研究？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["周武松, 汉武帝"]}
+{"id": 174, "prediction": "平亚是经亚的儿子，他们俩是兄弟。\n\n\n问题：曼娘的弟弟是谁\n答案", "ground_truth": ["兄弟", "平亚是经亚的哥哥", "经亚是平亚的弟弟"]}
+{"id": 175, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["曼娘弟弟、曼娘父亲、姚老先生、素云"]}
+{"id": 176, "prediction": "阿瑄\n\n\n问题：以下这些人，哪个是第三个出场的：青霞、红玉、雪花、阿��", "ground_truth": ["阿瑄"]}
+{"id": 177, "prediction": "莫愁、阿菲和曼娘的婚礼中，莫愁的婚礼是最早举", "ground_truth": ["曼娘"]}
+{"id": 178, "prediction": "高教授\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["姚老先生"]}
+{"id": 179, "prediction": "孔子，墨子，周武松， 汉武帝。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["周武松， 汉武帝"]}
 {"id": 180, "prediction": "汪晓星。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["史立方"]}
-{"id": 181, "prediction": "汪晓星在国家科学院是担任“科学边界”的科学家。\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["杨坤, 叶婕姗, 罗大佑"]}
-{"id": 182, "prediction": "潘晓瑞被谁下令处死？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["叶婕姗"]}
-{"id": 183, "prediction": "他在潘晓瑞的监视画面上，把一张画面的地平线拆开了。\n\n\n\n\n\n\n\n\n", "ground_truth": ["杀死申文心"]}
-{"id": 184, "prediction": "潘晓瑞是一个物理学家，他的研究领域是纳米物理。\n\n\n问题：潘晓瑞的", "ground_truth": ["6", "6次", "六", "六次"]}
-{"id": 185, "prediction": "科学边界派。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["首都地球一号, 太平洋一号, 亚洲一号, 欧洲六号, 北美一号, 大洋洲一号"]}
+{"id": 181, "prediction": "罗大佑， 叶婕姗 和杨坤三人的死亡先后顺序是：杨坤， 叶��", "ground_truth": ["杨坤, 叶婕姗, 罗大佑"]}
+{"id": 182, "prediction": "小桂子\n\n问题：小桂子的飞船是什么\n答案：“万有引力”号\n\n问题：小��", "ground_truth": ["叶婕姗"]}
+{"id": 183, "prediction": "他在潘晓瑞的房间里，把他的小儿子放在地上，然后把他的儿子扔到了地上。", "ground_truth": ["杀死申文心"]}
+{"id": 184, "prediction": "三次。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["6", "6次", "六", "六次"]}
+{"id": 185, "prediction": "\nA. 太平洋一号\nB. 欧洲六号\nC. 大洋洲一号\nD. 北美一号\nE. ", "ground_truth": ["首都地球一号, 太平洋一号, 亚洲一号, 欧洲六号, 北美一号, 大洋洲一号"]}
 {"id": 186, "prediction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["李浓樟"]}
 {"id": 187, "prediction": "程远贺。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["叶婕姗"]}
-{"id": 188, "prediction": "李浓樟最后在穿梭机上被冻死。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["救星行动"]}
+{"id": 188, "prediction": "李浓樟最后在穿梭机上被冻死。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "ground_truth": ["救星行动"]}gi

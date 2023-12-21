@@ -146,7 +146,7 @@ def create_prompt(eg: dict, data_name: str, model_name: str, data_dir) -> str:
         # print(document)
         # script_path = data_dir / "longdialogue_eng" / document
         # script = open(script_path, "r", encoding="utf8").read()
-        prompt = templates[data_name].format(context=script)
+        prompt = template.format(context=script)
         return prompt
     # ==================== Long book tasks
     elif data_name in [
@@ -398,3 +398,11 @@ def truncate_input(input, max_length, manner="middle"):
         return input[0 : max_length // 2] + input[-max_length // 2 :]
     else:
         return None
+
+
+if __name__ == "__main__":
+    data_dir = Path("../data")
+    data_path = data_dir / "shorter/longdialogue_qa_eng_1000.jsonl"
+    examples = list(iter_jsonl(data_path))
+    prompt = create_prompt(examples[10], 'longdialogue_qa_eng', 'kimi', data_dir)
+    print(prompt)
