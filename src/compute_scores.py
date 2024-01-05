@@ -5,13 +5,12 @@ import string
 from collections import Counter
 
 from tqdm import tqdm
-# import evaluate
+import evaluate
 
 from args import parse_args
 
 
-# ROUGE_SCORER = evaluate.load("rouge")
-
+ROUGE_SCORER = evaluate.load("rouge")
 
 
 def normalize_answer(s: str) -> str:
