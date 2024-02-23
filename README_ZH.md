@@ -5,7 +5,7 @@
 <p align="center">
   <a href="./README_ZH.md">中文</a> •
   <a href="./README.md">English</a> •
-  <a href="">Paper (upcoming)</a>
+  <a href="https://arxiv.org/pdf/2402.13718.pdf">(Arxiv论文)</a>
 </p>
 
 </div>
