@@ -158,10 +158,13 @@ The available tasks are:
 > This will be updated when our preprint paper is released.
 
 ```bibtex
-@misc{zhang2023infinitebench,
-  title  = {InfiniteBench: 128k Long-Context Benchmark for Language Models},
-  author = {Zhang, Xinrong and Chen, Yingfa and Hu, Shengding and Wu, Qihao and Chen, Junhao and Xu, Zihang and Dai, Zhenning and Han, Xu and Wang, Shuo and Liu, Zhiyuan and Sun, Maosong},
-  year   = {2023}
+@misc{zhang2024inftybench,
+      title={$\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens}, 
+      author={Xinrong Zhang and Yingfa Chen and Shengding Hu and Zihang Xu and Junhao Chen and Moo Khai Hao and Xu Han and Zhen Leng Thai and Shuo Wang and Zhiyuan Liu and Maosong Sun},
+      year={2024},
+      eprint={2402.13718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
