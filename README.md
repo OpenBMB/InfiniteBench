@@ -1,6 +1,9 @@
 <div align="center">
-
-# InfiniteBench: 100k+ Long-Context Benchmark for Large Language Models
+  <img src="docs/InfiniteBench.png" width="500px"/>
+  <br />
+  <br />
+  
+# InfiniteBench: Extending Long Context Evaluation Beyond 100K Tokens
 
 <p align="center">
   <a href="./README_ZH.md">中文</a> •
