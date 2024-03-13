@@ -26,7 +26,7 @@ def parse_args() -> Namespace:
     p.add_argument(
         "--model_name",
         type=str,
-        choices=["gpt4", "yarn-mistral", "kimi", "claude2", "rwkv"],
+        choices=["gpt4", "yarn-mistral", "kimi", "claude2", "rwkv", "yi-6b-200k", "yi-34b-200k"],
         default="gpt4",
         help="For `compute_scores.py` only, specify which model you want to compute the score for.",  # noqa
     )

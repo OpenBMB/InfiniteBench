@@ -237,6 +237,9 @@ def get_score_one_longdialogue_qa_eng(pred, label, model_name: str) -> bool:
 
 def get_score_one_longbook_choice_eng(pred, label, model_name: str) -> bool:
     # Just use the first letter as the prediction
+    pred = pred.strip()
+    if len(pred) == 0:
+        return False
     if pred[0] in "ABCD":
         return pred[0] in label
     # Find a answer prefix
