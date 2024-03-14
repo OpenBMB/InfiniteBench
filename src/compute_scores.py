@@ -240,8 +240,13 @@ def get_score_one_longbook_choice_eng(pred, label, model_name: str) -> bool:
     pred = pred.strip()
     if len(pred) == 0:
         return False
+        
+    if pred in label:
+        return True
+
     if pred[0] in "ABCD":
         return pred[0] in label
+
     # Find a answer prefix
     for c in ["\n", '"', "'", ".", ",", "?", "!", "{", "}"]:
         pred = pred.replace(c, " ")
