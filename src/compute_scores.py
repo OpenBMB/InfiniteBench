@@ -144,11 +144,17 @@ def get_score_one_kv_retrieval(pred, label, model_name: str) -> bool:
 
 
 def get_score_one_passkey(pred, label, model_name: str) -> bool:
-    return label == first_int_match(pred)
+    if isinstance(label, str):
+        return label == first_int_match(pred)
+    elif isinstance(label, list):
+        return label[0] == first_int_match(pred)
 
 
 def get_score_one_number_string(pred, label, model_name: str) -> bool:
-    return label == first_int_match(pred)
+    if isinstance(label, str):
+        return label == first_int_match(pred)
+    elif isinstance(label, list):
+        return label[0] == first_int_match(pred)
 
 
 def get_score_one_code_run(pred, label, model_name: str) -> bool:
@@ -163,6 +169,8 @@ def get_score_one_code_run(pred, label, model_name: str) -> bool:
         return False
     try:
         pred = int(words[-1])
+        if isinstance(label, list):
+            label = label[0]
         return label == pred
     except Exception:
         return False
