@@ -144,23 +144,23 @@ def get_score_one_kv_retrieval(pred, label, model_name: str) -> bool:
 
 
 def get_score_one_passkey(pred, label, model_name: str) -> bool:
-    if isinstance(label, str):
-        return label == first_int_match(pred)
-    elif isinstance(label, list):
-        return label[0] == first_int_match(pred)
+    if isinstance(label, list):
+        label = label[0]
+    return label == first_int_match(pred)
 
 
 def get_score_one_number_string(pred, label, model_name: str) -> bool:
-    if isinstance(label, str):
-        return label == first_int_match(pred)
-    elif isinstance(label, list):
-        return label[0] == first_int_match(pred)
+    if isinstance(label, list):
+        label = label[0]
+    return label == first_int_match(pred)
 
 
 def get_score_one_code_run(pred, label, model_name: str) -> bool:
     """
     Returns the score of one example in Code.Run.
     """
+    if isinstance(label, list):
+        label = label[0]
     pred = pred.strip()
     for c in ["\n", ".", "`", "'", '"', ":"]:
         pred = pred.replace(c, " ")
@@ -169,8 +169,6 @@ def get_score_one_code_run(pred, label, model_name: str) -> bool:
         return False
     try:
         pred = int(words[-1])
-        if isinstance(label, list):
-            label = label[0]
         return label == pred
     except Exception:
         return False
@@ -246,15 +244,12 @@ def get_score_one_longdialogue_qa_eng(pred, label, model_name: str) -> bool:
 def get_score_one_longbook_choice_eng(pred, label, model_name: str) -> bool:
     # Just use the first letter as the prediction
     pred = pred.strip()
-    if len(pred) == 0:
+    if pred == "":
         return False
-        
-    if pred in label:
-        return True
-
     if pred[0] in "ABCD":
         return pred[0] in label
-
+    if pred in label:
+        return True
     # Find a answer prefix
     for c in ["\n", '"', "'", ".", ",", "?", "!", "{", "}"]:
         pred = pred.replace(c, " ")

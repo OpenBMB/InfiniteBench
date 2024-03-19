@@ -53,6 +53,9 @@ MODEL_TO_PROMPT_TEMPLATE = {
     "claude2": claude2_templates,
     "kimi": kimi_templates,
     "yarn-mistral": yarn_mistral_templates,
+    "yi-6b-200k": yarn_mistral_templates,
+    "yi-34b-200k": yarn_mistral_templates,
+    "chatglm3": yarn_mistral_templates,
 }
 
 
