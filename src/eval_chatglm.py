@@ -95,7 +95,6 @@ if __name__ == "__main__":
 
     # Model
     max_tokens = DATA_NAME_TO_MAX_NEW_TOKENS[data_name]
-    # args.model_path = "/mnt/data/user/tc_agi/klara/models/llama_2_7b/ai_yi_6b_200k_hf/train-model/"
     model, tok = load_model(args.model_path)
     # sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
     # Data
