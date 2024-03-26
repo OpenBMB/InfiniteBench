@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/InfiniteBench.png" width="500px"/>
+  <img src="figs/InfiniteBench.jpg" width="500px"/>
   <br />
   <br />
   
