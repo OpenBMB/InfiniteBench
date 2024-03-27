@@ -8,7 +8,7 @@
 <p align="center">
   <a href="./README_ZH.md">中文</a> •
   <a href="./README.md">English</a> •
-  <a href="https://arxiv.org/pdf/2402.13718.pdf">论文</a>
+  <a href="https://arxiv.org/abs/2402.13718">论文</a>
 </p>
 
 </div>
