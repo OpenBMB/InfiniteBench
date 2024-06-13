@@ -306,6 +306,8 @@ def get_score_one_longbook_qa_chn(pred, label, model_name: str) -> float:
 def get_score_one_math_calc(pred, label, model_name: str) -> float:
     assert isinstance(label, list), f"Expected list, got {type(label)}"
     # assert isinstance(pred, list), f"Expected list, got {type(pred)}"
+    if isinstance(label[0], list):
+        label = label[0]
     pred_nums = []
     pred_list = re.split("[^0-9]", pred)
     for item in pred_list:
